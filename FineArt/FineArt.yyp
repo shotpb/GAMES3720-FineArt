@@ -30,11 +30,16 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"FineArt",
   "resources":[
+    {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
+    {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
+    {"id":{"name":"reset_variables","path":"scripts/reset_variables/reset_variables.yy",},},
+    {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
