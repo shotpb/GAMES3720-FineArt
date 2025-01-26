@@ -2,7 +2,7 @@
   "$GMScript":"v1",
   "%Name":"calc_movement",
   "isCompatibility":false,
-  "isDnD":true,
+  "isDnD":false,
   "name":"calc_movement",
   "parent":{
     "name":"Scripts",

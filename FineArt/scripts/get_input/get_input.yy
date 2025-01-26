@@ -2,7 +2,7 @@
   "$GMScript":"v1",
   "%Name":"get_input",
   "isCompatibility":false,
-  "isDnD":true,
+  "isDnD":false,
   "name":"get_input",
   "parent":{
     "name":"Scripts",
