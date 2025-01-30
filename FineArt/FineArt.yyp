@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":1,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,14 +30,17 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"FineArt",
   "resources":[
+    {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
+    {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
+    {"id":{"name":"s_block","path":"sprites/s_block/s_block.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
   ],
   "resourceType":"GMProject",
