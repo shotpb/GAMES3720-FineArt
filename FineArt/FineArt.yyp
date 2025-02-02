@@ -36,7 +36,7 @@
   "resources":[
     {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
@@ -46,7 +46,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
