@@ -16,7 +16,7 @@ function dialogue() constructor {
 	}
 	
 	count = function() {
-		return array_first(_dialogs);
+		return array_length(_dialogs);
 	}
 	
 }
