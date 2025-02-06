@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"WoodTest",
   "bboxMode":0,
-  "bbox_bottom":31,
-  "bbox_left":32,
-  "bbox_right":63,
+  "bbox_bottom":95,
+  "bbox_left":0,
+  "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c658b08a-0dda-42e8-8053-586363ecbc62","name":"c658b08a-0dda-42e8-8053-586363ecbc62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4736297f-8354-4e75-a05d-ebf6cb164fbb","name":"4736297f-8354-4e75-a05d-ebf6cb164fbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":96,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"42a6ed29-b7ab-4c6f-912b-0bf73b34aa25","blendMode":0,"displayName":"default","isLocked":false,"name":"42a6ed29-b7ab-4c6f-912b-0bf73b34aa25","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"469b4e6b-9c53-4048-a694-6a54d5985c13","blendMode":0,"displayName":"default","isLocked":false,"name":"469b4e6b-9c53-4048-a694-6a54d5985c13","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"WoodTest",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c658b08a-0dda-42e8-8053-586363ecbc62","path":"sprites/WoodTest/WoodTest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"12314849-250e-461d-8025-d12d8e6935c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4736297f-8354-4e75-a05d-ebf6cb164fbb","path":"sprites/WoodTest/WoodTest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"591ab6e6-7a8d-4c62-8766-4f90c9ad1f49","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":96,
 }
