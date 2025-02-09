@@ -39,7 +39,6 @@
     {"id":{"name":"o_dialogueTest","path":"objects/o_dialogueTest/o_dialogueTest.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
-    {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},},
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"s_character_test","path":"sprites/s_character_test/s_character_test.yy",},},
