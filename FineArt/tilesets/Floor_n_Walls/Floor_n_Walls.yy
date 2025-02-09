@@ -1,13 +1,16 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"Floor_n_Walls",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":6,
+    "SerialiseWidth":6,
+    "TileCompressedData":[
+      3,2,0,3,-3,0,16,6,0,0,1,0,11,0,0,7,0,0,15,4,0,0,5,-3,0,4,8,0,0,9,-5,0,2,13,0,
+    ],
+    "TileDataFormat":1,
   },
-  "name":"TileSet1",
+  "name":"Floor_n_Walls",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +21,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"WoodTest",
-    "path":"sprites/WoodTest/WoodTest.yy",
+    "name":"WALL_TILES",
+    "path":"sprites/WALL_TILES/WALL_TILES.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
