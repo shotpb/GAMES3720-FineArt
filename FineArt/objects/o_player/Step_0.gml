@@ -13,3 +13,20 @@ if((_hmove !=0) or (_vmove != 0)) and !display_dialogue
 	
 	move_and_collide(_hmove, _vmove, wall_tilemap);
 }
+/*
+if (collision_circle(x, y, colRad, ))
+{
+	
+}
+*/
+
+mybool = true;
+if (mybool)
+{
+	for (var _i = 0; _i < instance_count; ++_i;)
+	{
+	    var _temp_id = instance_id_get(i);
+	    show_debug_message("{0}", _temp_id);
+	}
+	mybool = false;
+}
