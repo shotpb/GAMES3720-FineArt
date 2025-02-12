@@ -49,6 +49,7 @@
     {"id":{"name":"s_ui_sell_button","path":"sprites/s_ui_sell_button/s_ui_sell_button.yy",},},
     {"id":{"name":"Temp","path":"sprites/Temp/Temp.yy",},},
     {"id":{"name":"WALL_TILES","path":"sprites/WALL_TILES/WALL_TILES.yy",},},
+    {"id":{"name":"WoodTest","path":"sprites/WoodTest/WoodTest.yy",},},
     {"id":{"name":"WoodTile","path":"sprites/WoodTile/WoodTile.yy",},},
     {"id":{"name":"Floor_n_Walls","path":"tilesets/Floor_n_Walls/Floor_n_Walls.yy",},},
   ],
