@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sell_button",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sell_button",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
