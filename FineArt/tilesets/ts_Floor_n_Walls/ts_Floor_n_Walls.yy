@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Floor_n_Walls",
+  "%Name":"ts_Floor_n_Walls",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":6,
@@ -10,7 +10,7 @@
     ],
     "TileDataFormat":1,
   },
-  "name":"Floor_n_Walls",
+  "name":"ts_Floor_n_Walls",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -21,8 +21,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"WALL_TILES",
-    "path":"sprites/WALL_TILES/WALL_TILES.yy",
+    "name":"s_WALL_TILES",
+    "path":"sprites/s_WALL_TILES/s_WALL_TILES.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
