@@ -20,9 +20,11 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	//	 but I'm hella poor"
 	//
 	//will totally work (make sure there are spaces between words)
+	//**IMPORTANT SIDENOTE** I could not figure out how to make punctuation repeat multiple times in a row properly,
+	//for now avoid them. e.g. "??", "...", etc.
 	
 	dialogue_Options[0][0] = 
-	["poor_Bad_1",
+	["So were out here testing stuff n shit! \"Wow look at me testing\" says the testing man epic gamer style. I love pasta and all things blue. I also love when the sun shines on my face in the morning except when I have a really really good dream!",
 	"poor_Bad_2", 
 	"poor_Bad_3", 
 	"poor_Bad_4"];
@@ -77,25 +79,45 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 							  
 	//------------------ No need to worry about further code ------------------------------
 	
+	//reset seed
 	randomise();
-	class = 0;
-	morality = 0;
-	text = 0;
+	var class = 0;
+	var morality = 0;
+	var text = 0;
 	
-	if (specific_Class != 0 || specific_Class != 1 || specific_Class != 2)
+	//checks if you want random or not for dialogue
+	if (specific_Class != 0 && specific_Class != 1 && specific_Class != 2)
 		class = int64(random_range(0, 2));
 	else
 		class = specific_Class;
 		
-	if (specific_Morals != 0 || specific_Morals != 1 || specific_Morals != 2)
+	if (specific_Morals != 0 && specific_Morals != 1 && specific_Morals != 2)
 		morality = int64(random_range(0, 2));
 	else
 		morality = specific_Morals;
 		
-	if (specific_Text != 0 || specific_Text != 1 || specific_Text != 2 || specific_Text != 3)
+	if (specific_Text != 0 && specific_Text != 1 && specific_Text != 2 && specific_Text != 3)
 		text = int64(random_range(0, 3));
 	else
 		text = specific_Text;
-		
-	return dialogue_Options[class][morality][text];
+
+	//separates the string by . ? and ! then returns that array
+	var my_str = dialogue_Options[class][morality][text];
+	var sub_str = "";
+	var retArr;
+	idx = 0;
+	for(var i = 1; i < string_length(my_str) + 1; i++)
+	{
+		var next_char = string_char_at(my_str, i);
+		if (next_char != "." && next_char != "!" && next_char != "?")
+			sub_str = sub_str + next_char;
+		else
+		{
+			retArr[idx] = sub_str + next_char;
+			idx++;
+			sub_str = "";
+		}
+	}
+	
+	return retArr;
 }

@@ -1,4 +1,7 @@
 script_execute(get_input);
+draw_self()
+
+depth = -y
 
 var _hmove = right - left;
 var _vmove = down - up;

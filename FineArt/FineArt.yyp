@@ -56,6 +56,7 @@
     {"id":{"name":"s_InteractE","path":"sprites/s_InteractE/s_InteractE.yy",},},
     {"id":{"name":"s_Krewella_DAFox","path":"sprites/s_Krewella_DAFox/s_Krewella_DAFox.yy",},},
     {"id":{"name":"s_Main_UI","path":"sprites/s_Main_UI/s_Main_UI.yy",},},
+    {"id":{"name":"s_Opaque_BG","path":"sprites/s_Opaque_BG/s_Opaque_BG.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
     {"id":{"name":"s_Temp","path":"sprites/s_Temp/s_Temp.yy",},},
     {"id":{"name":"s_TestDummy","path":"sprites/s_TestDummy/s_TestDummy.yy",},},

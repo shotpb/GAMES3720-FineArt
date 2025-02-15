@@ -1,2 +1,2 @@
-
-myDialogue = script_execute(get_lines(-1, -1, -1));
+depth = -y
+myDialogue = get_lines(0, 0, 0);
