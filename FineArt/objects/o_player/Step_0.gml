@@ -1,5 +1,5 @@
 script_execute(get_input);
-draw_self()
+
 
 depth = -y
 
