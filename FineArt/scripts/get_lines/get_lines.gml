@@ -20,7 +20,8 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	//	 but I'm hella poor"
 	//
 	//will totally work (make sure there are spaces between words)
-	//**IMPORTANT SIDENOTE** I could not figure out how to make punctuation repeat multiple times in a row properly,
+	//**IMPORTANT SIDENOTES** 
+	//I could not figure out how to make punctuation repeat multiple times in a row properly,
 	//for now avoid them. e.g. "??", "...", etc.
 	
 	dialogue_Options[0][0] = 
@@ -87,22 +88,22 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	
 	//checks if you want random or not for dialogue
 	if (specific_Class != 0 && specific_Class != 1 && specific_Class != 2)
-		class = int64(random_range(0, 2));
+		class = irandom_range(0, 2);
 	else
 		class = specific_Class;
 		
 	if (specific_Morals != 0 && specific_Morals != 1 && specific_Morals != 2)
-		morality = int64(random_range(0, 2));
+		morality = irandom_range(0, 2);
 	else
 		morality = specific_Morals;
 		
 	if (specific_Text != 0 && specific_Text != 1 && specific_Text != 2 && specific_Text != 3)
-		text = int64(random_range(0, 3));
+		text = irandom_range(0, 3);
 	else
 		text = specific_Text;
 
 	//separates the string by . ? and ! then returns that array
-	var my_str = dialogue_Options[class][morality][text];
+	my_str = dialogue_Options[class][morality][text];
 	var sub_str = "";
 	var retArr;
 	idx = 0;
@@ -118,6 +119,8 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 			sub_str = "";
 		}
 	}
+	if (string_length(sub_str) > 0)
+		retArr[idx] = sub_str;
 	
 	return retArr;
 }
