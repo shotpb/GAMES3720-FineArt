@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_Dummy1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_roomExit",
+  "eventList":[],
   "managed":true,
-  "name":"o_Dummy1",
+  "name":"o_roomExit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"o_parentInteract",
-    "path":"objects/o_parentInteract/o_parentInteract.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_TestDummy",
-    "path":"sprites/s_TestDummy/s_TestDummy.yy",
+    "name":"s_roomExit",
+    "path":"sprites/s_roomExit/s_roomExit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
