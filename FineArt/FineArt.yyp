@@ -52,6 +52,7 @@
     {"id":{"name":"o_roomManager","path":"objects/o_roomManager/o_roomManager.yy",},},
     {"id":{"name":"r_Day1","path":"rooms/r_Day1/r_Day1.yy",},},
     {"id":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},},
+    {"id":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"get_lines","path":"scripts/get_lines/get_lines.yy",},},
@@ -77,6 +78,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"r_Day1","path":"rooms/r_Day1/r_Day1.yy",},},
     {"roomId":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},},
+    {"roomId":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

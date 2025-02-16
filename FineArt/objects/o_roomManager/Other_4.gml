@@ -1,3 +1,7 @@
+// Fade transition
+fade = 1;
+fadeDirection = -1;
+
 // Go to target instance
 if (instance_exists(targetInstance)) {
 	// Create player
