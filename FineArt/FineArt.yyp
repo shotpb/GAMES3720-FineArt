@@ -50,6 +50,7 @@
     {"id":{"name":"o_popupE","path":"objects/o_popupE/o_popupE.yy",},},
     {"id":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},},
     {"id":{"name":"o_roomManager","path":"objects/o_roomManager/o_roomManager.yy",},},
+    {"id":{"name":"o_tutorialMessager","path":"objects/o_tutorialMessager/o_tutorialMessager.yy",},},
     {"id":{"name":"r_Day1","path":"rooms/r_Day1/r_Day1.yy",},},
     {"id":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},},
     {"id":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
@@ -76,9 +77,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
     {"roomId":{"name":"r_Day1","path":"rooms/r_Day1/r_Day1.yy",},},
     {"roomId":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},},
-    {"roomId":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
