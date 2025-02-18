@@ -1,9 +1,13 @@
 script_execute(get_input);
 
+
+depth = -y
+
 var _hmove = right - left;
 var _vmove = down - up;
+var _displaydialogue = false;
 
-if((_hmove !=0) or (_vmove != 0))
+if((_hmove !=0) or (_vmove != 0)) and !display_dialogue
 {
 	var _dir = point_direction(0, 0, _hmove, _vmove);
 	

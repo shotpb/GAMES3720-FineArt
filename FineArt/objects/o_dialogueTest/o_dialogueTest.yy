@@ -12,8 +12,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"o_dialogueParent",
-    "path":"objects/o_dialogueParent/o_dialogueParent.yy",
+    "name":"o_dialogueCanSell",
+    "path":"objects/o_dialogueCanSell/o_dialogueCanSell.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
