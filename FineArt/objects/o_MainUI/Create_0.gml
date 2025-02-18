@@ -11,4 +11,6 @@ o_player.display_dialogue = true;
 
 my_txt[0] = [0];
 
-sellButton = new sell_button(window_get_width() - 220, window_get_height() - 220);
+if (canSell) {
+	sellButton = new sell_button(window_get_width() - 220, window_get_height() - 220);
+}

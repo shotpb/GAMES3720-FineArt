@@ -10,4 +10,4 @@ target_room = 0;
 
 // !!! ONLY FOR PROTOTYPE !!!
 potential_moral_choice = [0, 0];
-sell_moral_choice = [0, 0];
+sell_moral_choice = [0, 0]; //class, morals

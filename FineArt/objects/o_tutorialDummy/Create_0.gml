@@ -5,3 +5,5 @@ myDialogue = [ "Welcome to the tutorial.",
 				"Try to only sell to those that match your given criteria.",
 				"Pay attention to your conversations to decide whether or not a patron meets those requirements.",
 				"Exit the tutorial on the bottom when you are ready."];
+				
+can_sell = false;
