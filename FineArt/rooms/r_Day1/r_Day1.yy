@@ -6,12 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_60E9D0A2","path":"rooms/r_Day1/r_Day1.yy",},
     {"name":"inst_599F759C","path":"rooms/r_Day1/r_Day1.yy",},
     {"name":"room1_arrow1","path":"rooms/r_Day1/r_Day1.yy",},
     {"name":"room1_exit1","path":"rooms/r_Day1/r_Day1.yy",},
     {"name":"inst_6FFB5B27","path":"rooms/r_Day1/r_Day1.yy",},
     {"name":"inst_B3589A5","path":"rooms/r_Day1/r_Day1.yy",},
+    {"name":"inst_60E9D0A2","path":"rooms/r_Day1/r_Day1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -29,8 +29,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"specific_Class","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"specific_Morals","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
-        {"$GMRInstance":"v1","%Name":"room1_arrow1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"room1_arrow1","objectId":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":96.0,},
-        {"$GMRInstance":"v1","%Name":"room1_exit1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"room1_exit1","objectId":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"properties":[
+        {"$GMRInstance":"v1","%Name":"room1_arrow1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"room1_arrow1","objectId":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"room1_exit1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"room1_exit1","objectId":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"propertyId":{"name":"targetInstance","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"room2_arrow1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"propertyId":{"name":"targetRoom","path":"objects/o_exitTrigger/o_exitTrigger.yy",},"resource":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"r_Day2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":96.0,},
