@@ -28,11 +28,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"specific_Class","filters":[],"listItems":[],"multiselect":false,"name":"specific_Class","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"specific_Morals","filters":[],"listItems":[],"multiselect":false,"name":"specific_Morals","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"specific_Text","filters":[],"listItems":[],"multiselect":false,"name":"specific_Text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,2 +1,2 @@
-depth = -y
-myDialogue = get_lines(-1, -1, -1);
+depth = -y;
+myDialogue = get_lines(specific_Class, specific_Morals, specific_Text);

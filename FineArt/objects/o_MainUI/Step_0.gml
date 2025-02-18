@@ -8,6 +8,7 @@ if (showing_txt == false)
 		instance_destroy();
 		o_player.display_dialogue = false;
 		alpha = 0;
+		// show_message(o_player.potential_moral_choice);
 		return;
 	}
 	
