@@ -4,6 +4,7 @@ if (showing_txt == false)
 	alpha = 1
 	if(curr_idx > array_length(my_txt) - 1) 
 	{
+		instance_destroy(sellButton.sell_button_instance);
 		instance_destroy();
 		o_player.display_dialogue = false;
 		alpha = 0;
