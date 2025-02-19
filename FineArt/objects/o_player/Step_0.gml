@@ -16,3 +16,6 @@ if((_hmove !=0) or (_vmove != 0)) and !display_dialogue
 	
 	move_and_collide(_hmove, _vmove, wall_tilemap);
 }
+
+touching_NPC = place_meeting(x, y, o_parentInteract);
+

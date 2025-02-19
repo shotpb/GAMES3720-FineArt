@@ -1,4 +1,5 @@
-walk_speed = walk_spd
+walk_speed = walk_spd;
+_touching_NPC = touching_NPC;
 
 wall_tilemap = layer_tilemap_get_id("Walls");
 

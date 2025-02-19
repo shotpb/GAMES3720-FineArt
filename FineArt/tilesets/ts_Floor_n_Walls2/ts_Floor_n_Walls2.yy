@@ -1,16 +1,15 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_Floor_n_Walls",
+  "%Name":"ts_Floor_n_Walls2",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":6,
+    "SerialiseHeight":7,
     "SerialiseWidth":6,
-    "TileCompressedData":[
-      3,2,0,3,-3,0,16,6,0,0,1,0,11,0,0,7,0,0,15,4,0,0,5,-3,0,4,8,0,0,9,-5,0,2,13,0,
+    "TileSerialiseData":[
+      2,0,3,0,0,4,7,0,0,8,0,9,0,0,1,0,0,0,5,0,0,6,0,14,0,10,0,0,0,19,11,0,13,0,0,0,16,0,18,0,0,0,
     ],
-    "TileDataFormat":1,
   },
-  "name":"ts_Floor_n_Walls",
+  "name":"ts_Floor_n_Walls2",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -21,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_WALL_TILES",
-    "path":"sprites/s_WALL_TILES/s_WALL_TILES.yy",
+    "name":"s_Updated_Wall_Tiles",
+    "path":"sprites/s_Updated_Wall_Tiles/s_Updated_Wall_Tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -37,5 +36,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":20,
 }
