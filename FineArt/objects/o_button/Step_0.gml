@@ -19,7 +19,8 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id)) {
 		global.money += moneyAdd;
 		
-		end_game(price, morality);
+		//end_game(price, morality);
+		o_player._exit = true;
 		if (instance_exists(o_MainUI))
 		{
 			instance_destroy(o_MainUI);

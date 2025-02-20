@@ -1,2 +1,2 @@
-room_goto(rooms[target_room]);
-target_room++;
+room_goto(rooms[global.target_room]);
+global.target_room += 1;

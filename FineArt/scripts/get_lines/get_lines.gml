@@ -110,7 +110,7 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	for(var i = 1; i < string_length(my_str) + 1; i++)
 	{
 		var next_char = string_char_at(my_str, i);
-		if (next_char != "." && next_char != "!" && next_char != "?")
+		if (next_char != "." && next_char != "!" && next_char != "?" && next_char != "…")
 			sub_str = sub_str + next_char;
 		else
 		{

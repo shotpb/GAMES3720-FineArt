@@ -7,9 +7,6 @@ display_dialogue = false;
 
 //vars for room transition
 _exit = false;
-target_room = 0;
-rooms = [r_Day1, r_Day2];
-
-// !!! ONLY FOR PROTOTYPE !!!
-potential_moral_choice = [0, 0];
-sell_moral_choice = [0, 0]; //class, morals
+if (!variable_global_exists("target_room"))
+	global.target_room = 0;
+rooms = [r_Day1, r_Cutscene1, r_Day2, r_EndRoom];
