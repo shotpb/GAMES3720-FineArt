@@ -31,6 +31,8 @@ if (canSell) {
 	with (sellButton)
 	{
 		price = other.richness;
+		morality = other.morality;
+		text = other._text;
 	}
 	canSell = false
 }
