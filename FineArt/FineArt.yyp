@@ -50,6 +50,7 @@
     {"id":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_popupE","path":"objects/o_popupE/o_popupE.yy",},},
+    {"id":{"name":"o_prototypeEnd","path":"objects/o_prototypeEnd/o_prototypeEnd.yy",},},
     {"id":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},},
     {"id":{"name":"o_roomManager","path":"objects/o_roomManager/o_roomManager.yy",},},
     {"id":{"name":"o_tutorialDummy","path":"objects/o_tutorialDummy/o_tutorialDummy.yy",},},
