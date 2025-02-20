@@ -38,7 +38,7 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 							  
 	dialogue_Options[0][2] = 
 	["Oh. Are you the owner of this art gallery? I really love your paintings, I wish I could afford one. See, I used to be an artist, and that’s most of the reason I’m in this situation. It's really been a struggle for me and my family these past several years, and while I don’t have the time to paint anymore, having a piece like this would definitely help me get through the long days of work. I know it’s not my place to ask, and I’m sorry to dump this all on you. I can’t afford to give you much, but could you please sell me this painting?", 
-	"This painting is amazing, Ms', I would love to buy it off you but I simply don’t have the money to afford it,/I can give you a little, but certainly not as much as the others here. If you could find it in your heart to sell it to me, I’ll do my best to return your favor. Please Ms, this painting would mean a lot to me, I really haven’t had anything that belongs to me that’s luxury in a long time.", 
+	"This painting is amazing, Ms', I would love to buy it off you but I simply don’t have the money to afford it, I can give you a little, but certainly not as much as the others here. If you could find it in your heart to sell it to me, I’ll do my best to return your favor. Please Ms, this painting would mean a lot to me, I really haven’t had anything that belongs to me that’s luxury in a long time.", 
 	"Oh… You are Ms' Evelyn Reeves, no? I must apologize, I just come to look at the art, as much as I’d love to buy this piece, I simply cannot afford it, money is tight enough as it is. The little I can offer you would be far outcompeted by the others here, and I’d hate for you to lose business or money over me. So please, feel no pressure to sell to me, but I will take it off your hands if you’d like.", 
 	"Oh! Ms' Evelyn! Ms' Evelyn!  I love your art! These paintings are phenomenal, each piece has so much passion and heart in them! I can’t give you much for them, but if you sell to me I’ll be sure to talk you up to my friends! I plan to hang it up in an area where we all like to gather when we need to beg, maybe I can even get some better food if they see me with it. Please let me buy it from you!"];
 		
@@ -124,5 +124,6 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	if (string_length(sub_str) > 0)
 		retArr[idx] = sub_str;
 	
-	return retArr;
+	var finalRetArr = [retArr, class, morality, text];
+	return finalRetArr;
 }

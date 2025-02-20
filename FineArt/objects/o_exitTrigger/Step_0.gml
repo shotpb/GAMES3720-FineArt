@@ -1,0 +1,1 @@
+o_player._exit = place_meeting(x, y, o_player);

@@ -25,3 +25,12 @@ else
 		alpha = 0;
 	}
 }
+
+if (canSell) {
+	var sellButton = instance_create_layer(window_get_width() - 300, window_get_height() - 220, "UI_Elements", o_button);
+	with (sellButton)
+	{
+		price = other.richness;
+	}
+	canSell = false
+}

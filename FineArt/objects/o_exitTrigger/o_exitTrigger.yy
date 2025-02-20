@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"o_exitTrigger",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_exitTrigger",
   "overriddenProperties":[],
@@ -23,12 +25,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"targetInstance","filters":[],"listItems":[],"multiselect":false,"name":"targetInstance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"targetRoom","filters":[
-        "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"targetRoom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

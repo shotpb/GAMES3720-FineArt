@@ -9,8 +9,11 @@ if (place_meeting(x, y, o_player))
 		var UI = instance_create_layer(view_get_xport(0) + (view_get_wport(0) / 2), view_get_yport(0) + (view_get_hport(0) / 2) - 50, "UI_Elements", o_MainUI);
 		with (UI)
 		{
-			my_txt = other.myDialogue;
+			my_txt = other.myDialogue[0];
 			canSell = other.can_sell;
+			richness = other.myDialogue[1];
+			morality = other.myDialogue[2];
+			text = other.myDialogue[3];
 		}
 		
 		o_player.potential_moral_choice = [specific_Class, specific_Morals];

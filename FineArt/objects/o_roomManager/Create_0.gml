@@ -1,4 +1,4 @@
-targetInstance = noone;
+//targetInstance = noone;
 
 // Fade transition
 fade = 1;
