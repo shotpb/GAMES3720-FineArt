@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"can_sell","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"true",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interaction Objects",
+    "path":"folders/Objects/Interaction Objects.yy",
   },
   "parentObjectId":{
     "name":"o_parentInteract",

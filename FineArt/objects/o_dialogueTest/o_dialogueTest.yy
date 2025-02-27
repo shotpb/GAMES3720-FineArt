@@ -8,8 +8,8 @@
   "name":"o_dialogueTest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":{
     "name":"o_dialogueCanSell",
