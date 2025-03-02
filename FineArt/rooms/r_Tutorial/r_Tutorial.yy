@@ -11,7 +11,6 @@
     {"name":"room1_exit1_1","path":"rooms/r_Tutorial/r_Tutorial.yy",},
     {"name":"inst_1831F612","path":"rooms/r_Tutorial/r_Tutorial.yy",},
     {"name":"inst_758D89E4","path":"rooms/r_Tutorial/r_Tutorial.yy",},
-    {"name":"inst_7620AA10","path":"rooms/r_Tutorial/r_Tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,7 +29,6 @@
         {"$GMRInstance":"v1","%Name":"inst_1831F612","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1831F612","objectId":{"name":"o_tutorialDummy","path":"objects/o_tutorialDummy/o_tutorialDummy.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"can_sell","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":128.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7620AA10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7620AA10","objectId":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Walls","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":60,"TileCompressedData":[
           1,1,-22,2,1,3,-36,-2147483648,1,6,-22,7,1,8,-36,-2147483648,1,6,-11,0,-11,-2147483648,1,8,-36,-2147483648,

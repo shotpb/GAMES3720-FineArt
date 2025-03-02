@@ -10,8 +10,8 @@
   "name":"o_roomManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Objects/Rooms.yy",
+    "name":"Room Objects",
+    "path":"folders/Objects/Room Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

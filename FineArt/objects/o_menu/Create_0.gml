@@ -1,6 +1,6 @@
 menu_x = x;
 menu_y = y;
-button_h = 32;
+button_h = 64;
 
 // button names
 button[0] = "New Game";

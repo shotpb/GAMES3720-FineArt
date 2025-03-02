@@ -1,3 +1,4 @@
+draw_self();
 var i = 0;
 repeat(buttons) {
 	draw_set_font(f_menu);

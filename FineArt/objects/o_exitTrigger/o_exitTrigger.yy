@@ -8,8 +8,8 @@
   "name":"o_exitTrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Objects/Rooms.yy",
+    "name":"Room Objects",
+    "path":"folders/Objects/Room Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
