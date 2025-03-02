@@ -1,0 +1,1 @@
+global.quota = 50_000;
