@@ -21,7 +21,7 @@ function cutscene_lines(cutscene_number)
 	"The hell it is! We’ve known each other for years, what would be so important that you’d not tell me under this much duress!",
 	"(To Self) *Damn it James*"];
 	
-	//speaker_order_1 = [1, 0, 1, 0, 1, 0];
+	speaker_order_1 = [1, 0, 1, 0, 1, 0]
 	
 	james_2 = [
 	"Test - James1",
@@ -30,7 +30,7 @@ function cutscene_lines(cutscene_number)
 	evelyn_2 = [
 	"Test - Evelyn2"];
 	
-	//speaker_order_2 = [1, 0, 1];
+	speaker_order_2 = [1, 0, 1];
 	
 	james_3 = [
 	"Test - James1",
@@ -40,7 +40,7 @@ function cutscene_lines(cutscene_number)
 	evelyn_3 = [
 	"Test - Evelyn2"];
 	
-	//speaker_order_3 = [1, 1, 1];
+	speaker_order_3 = [1, 1, 1];
 	
 	james_4 = [
 	"Test - James1",
@@ -51,7 +51,7 @@ function cutscene_lines(cutscene_number)
 	"Test - Evelyn2",
 	"Test - Evelyn3"];
 	
-	//speaker_order_4 = [0, 0, 0];
+	speaker_order_4 = [0, 0, 0];
 	
 	james_5 = [
 	"Test - James1",
@@ -60,66 +60,26 @@ function cutscene_lines(cutscene_number)
 	evelyn_5 = [
 	"Test - Evelyn3"];
 	
-	//speaker_order_5 = [1, 1, 0];
+	speaker_order_5 = [1, 1, 0];
 	}
 	
-	speaker_order = cutscene_speakers(cutscene_number);
 	//separates the string by . ? and ! then returns that array
-	//curr_speaker = [james, evelyn]
-	//speaker_line = [0, 0];
-	//speaker = starting_speaker;
+	curr_speaker = [james, evelyn]
+	speaker_line = [0, 0];
+	speaker = starting_speaker;
 	
 	var sub_str = "";
 	var retArr;
 	var curr_dialogue = "";
 	idx = 0;
 	
-	dialogue_lines = [];
-	
-	// function for creating the dialogue speaker order
-	var create_cutscene_dialogue = function create_cutscene_lines(evelyn_lines, james_lines, speaker_order)
-	{
-		cutscene_dialogue = [];
-		for (var i = 0; i < array_length(speaker_order); i++) 
-		{
-			switch (speaker_order[i])
-			{
-				case 0:
-					array_push(cutscene_dialogue, array_shift(evelyn_lines))
-					break;
-				case 1:
-					array_push(cutscene_dialogue, array_shift(james_lines))
-					break;
-				default:
-					array_push(cutscene_dialogue, "Error - Unidentified Speaker")
-					break;
-			}
-		}
-	
-		return cutscene_dialogue;
-	}
-	
-	switch (cutscene_number) 
-	{
+	switch (cutscene_number) {
 		case 0:
-			dialogue_lines = create_cutscene_dialogue(evelyn_1, james_1, speaker_order);
-			break;
-		case 1:
-			dialogue_lines = create_cutscene_dialogue(evelyn_2, james_2, speaker_order);
-			break;
-		case 2:
-			dialogue_lines = create_cutscene_dialogue(evelyn_3, james_3, speaker_order);
-			break;
-		case 3:
-			dialogue_lines = create_cutscene_dialogue(evelyn_4, james_4, speaker_order);
-			break;
-		case 4:
-			dialogue_lines = create_cutscene_dialogue(evelyn_5, james_5, speaker_order);
-			break;
+			
 	}
 	
 	
-	/*
+	
 	for (var j = 0; j < (array_length(james) + array_length(evelyn)); j++)
 	{
 		curr_dialogue = curr_speaker[speaker][speaker_line[speaker]];
@@ -159,7 +119,8 @@ function cutscene_lines(cutscene_number)
 		if (string_length(sub_str) > 0)
 			retArr[idx] = sub_str;
 	}
-	*/
 	
-	return dialogue_lines;
+	return retArr;
 }
+
+function 

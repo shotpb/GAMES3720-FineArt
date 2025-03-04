@@ -72,6 +72,7 @@
     {"id":{"name":"r_Menu","path":"rooms/r_Menu/r_Menu.yy",},},
     {"id":{"name":"r_Tutorial","path":"rooms/r_Tutorial/r_Tutorial.yy",},},
     {"id":{"name":"cutscene_lines","path":"scripts/cutscene_lines/cutscene_lines.yy",},},
+    {"id":{"name":"cutscene_speakers","path":"scripts/cutscene_speakers/cutscene_speakers.yy",},},
     {"id":{"name":"dialogue","path":"scripts/dialogue/dialogue.yy",},},
     {"id":{"name":"end_game","path":"scripts/end_game/end_game.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},

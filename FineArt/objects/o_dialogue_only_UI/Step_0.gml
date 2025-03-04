@@ -13,8 +13,15 @@ if (showing_txt == false)
 		// show_message(o_player.potential_moral_choice);
 		return;
 	}
-	
-	curr_txt = my_txt[curr_idx];
+	if speaker_order[curr_idx] == 0 {
+		curr_txt = "EVELYN:     " + my_txt[curr_idx];
+	}
+	else if speaker_order[curr_idx] == 1 {
+		curr_txt = "JAMES:     " + my_txt[curr_idx];
+	}
+	else {
+		curr_txt =  my_txt[curr_idx];
+	}
 	showing_txt = true;
 	curr_idx++;
 }
