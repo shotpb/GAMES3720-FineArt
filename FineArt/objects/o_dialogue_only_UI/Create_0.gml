@@ -8,5 +8,6 @@ curr_txt = "";
 alpha = 1;
 my_text = [];
 speaker_order = [];		// 0 - Evelyn, 1 - James
+speaker_portrait = s_character_test;
 
 o_player.display_dialogue = true;
