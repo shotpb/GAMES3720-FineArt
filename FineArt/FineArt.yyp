@@ -32,7 +32,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"FineArt",
   "resources":[
@@ -60,6 +60,7 @@
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"get_lines","path":"scripts/get_lines/get_lines.yy",},},
     {"id":{"name":"sell_button","path":"scripts/sell_button/sell_button.yy",},},
+    {"id":{"name":"CoinSprite","path":"sprites/CoinSprite/CoinSprite.yy",},},
     {"id":{"name":"Painting_1","path":"sprites/Painting_1/Painting_1.yy",},},
     {"id":{"name":"Painting_2","path":"sprites/Painting_2/Painting_2.yy",},},
     {"id":{"name":"Painting_3","path":"sprites/Painting_3/Painting_3.yy",},},
@@ -82,6 +83,7 @@
     {"id":{"name":"s_WALL_TILES","path":"sprites/s_WALL_TILES/s_WALL_TILES.yy",},},
     {"id":{"name":"s_WoodTest","path":"sprites/s_WoodTest/s_WoodTest.yy",},},
     {"id":{"name":"s_WoodTile","path":"sprites/s_WoodTile/s_WoodTile.yy",},},
+    {"id":{"name":"SellButton2","path":"sprites/SellButton2/SellButton2.yy",},},
     {"id":{"name":"ts_Floor_n_Walls2","path":"tilesets/ts_Floor_n_Walls2/ts_Floor_n_Walls2.yy",},},
   ],
   "resourceType":"GMProject",
