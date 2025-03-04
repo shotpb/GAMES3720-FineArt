@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_ui_sell_button",
-    "path":"sprites/s_ui_sell_button/s_ui_sell_button.yy",
+    "name":"SellButton2",
+    "path":"sprites/SellButton2/SellButton2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
