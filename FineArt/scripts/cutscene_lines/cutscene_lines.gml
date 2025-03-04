@@ -118,8 +118,10 @@ function cutscene_lines(cutscene_number)
 			break;
 	}
 	
-	
-	/*
+	return dialogue_lines;
+}
+
+/* - unused code zone
 	for (var j = 0; j < (array_length(james) + array_length(evelyn)); j++)
 	{
 		curr_dialogue = curr_speaker[speaker][speaker_line[speaker]];
@@ -159,7 +161,4 @@ function cutscene_lines(cutscene_number)
 		if (string_length(sub_str) > 0)
 			retArr[idx] = sub_str;
 	}
-	*/
-	
-	return dialogue_lines;
-}
+*/

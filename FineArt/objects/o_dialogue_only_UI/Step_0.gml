@@ -14,9 +14,11 @@ if (showing_txt == false)
 		return;
 	}
 	if speaker_order[curr_idx] == 0 {
+		//draw_set_color(c_red);
 		curr_txt = "EVELYN:     " + my_txt[curr_idx];
 	}
 	else if speaker_order[curr_idx] == 1 {
+		//draw_set_color(c_blue);
 		curr_txt = "JAMES:     " + my_txt[curr_idx];
 	}
 	else {
