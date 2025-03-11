@@ -1,44 +1,45 @@
 function cutscene_lines(cutscene_number)
 {
 	{
-	james_1 = 
-	["Well then, sell more! The money we’re bringing in is…",
-	"They are, and we do need to keep up appearances, wealthy people are much more likely to purchase from someone well dressed, you should know that!",
-	"You know that’s not true, if it didn’t matter, you’d give it to well-learned art museums for pennies, you wouldn’t be working with me. You need money, hell, I need money. Eve, I know art means a lot to you, but that’s not enough to live reasonably these days.",
-	"Eve, I’m sorry.",
-	"Is that bad? They’re buying the art.",
-	"Eve, that’s not fair. You know I love your art, but you were never going to be able to sustain yourself if you didn’t start making money off of it, I just gave you the push you needed to start.",
-	"It’s more complex than that.",
-	"I- I have to go. I’ll explain some time, but it isn’t my story to tell."];
+	james_1 = [];
 	
 	evelyn_1 = [
-	"James, you know it’s not that easy, if it were my decision, I’d be out on the streets selling them to anyone who walks by. But you were the one who said appearances were important!",
-	"It’s art! It doesn’t matter who’s buying it! It’s more important that the people appreciate it.",
-	"It's- I just thought that… I really believed that the people who came in here would be doing so because they wanted to understand the art on a deeper level. I thought I’d be able to share my passions and joys with these people.",
-	"It just feels like we’re running a business, I feel like I sold part of my soul to each of these paintings, and almost none of these people are in it for that.",
-	"Hell, you came to me telling me you’d help me sell my art because you loved what I made. Was that ever true? Is that even true?",
-	"If you cared, you wouldn’t be making money off me.",
-	"The hell it is! We’ve known each other for years, what would be so important that you’d not tell me under this much duress!",
-	"(To Self) *Damn it James*"];
-	
-	//speaker_order_1 = [1, 0, 1, 0, 1, 0];
+	"My first gallery show - well I didn't expect to spend the whole evening pretending to feign over complete snobs, but maybe I'll get some more clients tomorrow that actually appreciate my art for what it is.",
+	"I put my heart into those paintings, I just want them to be appreciated!",
+	"I don't care who buys it or for how much! I'll just have to speak with James about next time he comes to demand more paintings and money and whatever else he can think of."
+	];
 	
 	james_2 = [
-	"Test - James1",
-	"Test - James3"];
+	"Well then, sell more! The money we’re bringing in is-",
+	"You know that’s not true. If it didn’t matter, you’d give it to well-learned art museums for pennies, you wouldn’t be working with me.",
+	"You need money. Hell, I need money. Eve, I know art means a lot to you, but that’s not enough to live reasonably these days.",
+	"Eve, I'm sorry.",
+	"Is that so wrong? They’re buying the art, that’s all you should care about.",
+	"Eve, that’s not fair.",
+	"I- I have to go. I’ll explain some time, but it isn’t my story to tell."];
 	
 	evelyn_2 = [
-	"Test - Evelyn2"];
-	
-	//speaker_order_2 = [1, 0, 1];
+	"It’s art! It doesn’t matter who’s buying it! It’s more important that the people appreciate it!",
+	"It's- I just thought… I really believed that the people who came in here would be doing so because they wanted to understand the art on a deeper level.",
+	"I thought I’d be able to share my passions and joys with these people.",
+	"It just feels like	 we're running a business. I feel like I sold part of my soul to each of these paintings and almost none of these people are here for that.",
+	"If you cared, you wouldn’t be making money off me. Why are you even doing this?",
+	"The hell it is! We’ve known each other for years, what would be so important that you’d not tell me under this much duress!",
+	"...Damn it James."];
 	
 	james_3 = [
-	"Test - James1",
-	"Test - James2",
-	"Test - James3"];
+	"Evelyn, I told you once and I’ll tell you again stop being so paranoid and excitable! How could they have killed people? They’re PAINTINGS!",
+	"Evelyn, this is ridiculous. You’re looking for any excuse to waste my money and my time and this is the most ludicrous stalling tactic yet.",
+	"Look, I’m not going to argue about this anymore. Maybe you are feeling some sort of presence when you’re working on your pieces lately, and maybe somehow that presence has worked itself into your paintings.",
+	"This is all preposterous, but even if it was true…what could we do about it? You’ve already painted these pieces, so we might as well sell them and share your beautiful art with the world.",
+	"We’ll find people who appreciate your talent and the real emotion you put into your art.",
+	"You’ve already painted them and most importantly I’ve already given you the money to paint them. So let’s sell them, recoup the investment, and then you can have your crisis of conscience after the gallery show is over."];
 	
 	evelyn_3 = [
-	"Test - Evelyn2"];
+	"JAMES YOU’RE NOT LISTENING TO ME! This is serious! I really think that my paintings killed those people!",
+	"James you’re not being paranoid enough if you can’t see the obvious connection, I sold paintings to all of these people and now they’re all dead? Haven’t you seen the paper?",
+	"I’m telling you, I haven’t been feeling well lately. I’ve been having nightmares and I told you there is something in my studio. I can feel it…watching me.",
+	"How could we sell people a painting that we know could KILL them?"];
 	
 	//speaker_order_3 = [1, 1, 1];
 	

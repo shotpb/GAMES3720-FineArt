@@ -65,6 +65,8 @@
     {"id":{"name":"r_Cutscene2","path":"rooms/r_Cutscene2/r_Cutscene2.yy",},},
     {"id":{"name":"r_Cutscene3","path":"rooms/r_Cutscene3/r_Cutscene3.yy",},},
     {"id":{"name":"r_Cutscene4","path":"rooms/r_Cutscene4/r_Cutscene4.yy",},},
+    {"id":{"name":"r_Cutscene5_Art","path":"rooms/r_Cutscene5_Art/r_Cutscene5_Art.yy",},},
+    {"id":{"name":"r_Cutscene5_Inv","path":"rooms/r_Cutscene5_Inv/r_Cutscene5_Inv.yy",},},
     {"id":{"name":"r_Day1","path":"rooms/r_Day1/r_Day1.yy",},},
     {"id":{"name":"r_Day2","path":"rooms/r_Day2/r_Day2.yy",},},
     {"id":{"name":"r_Day3","path":"rooms/r_Day3/r_Day3.yy",},},
@@ -131,6 +133,8 @@
     {"roomId":{"name":"r_Cutscene4","path":"rooms/r_Cutscene4/r_Cutscene4.yy",},},
     {"roomId":{"name":"r_Day5","path":"rooms/r_Day5/r_Day5.yy",},},
     {"roomId":{"name":"r_EndRoom","path":"rooms/r_EndRoom/r_EndRoom.yy",},},
+    {"roomId":{"name":"r_Cutscene5_Art","path":"rooms/r_Cutscene5_Art/r_Cutscene5_Art.yy",},},
+    {"roomId":{"name":"r_Cutscene5_Inv","path":"rooms/r_Cutscene5_Inv/r_Cutscene5_Inv.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
