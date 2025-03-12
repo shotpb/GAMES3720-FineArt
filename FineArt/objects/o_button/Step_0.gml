@@ -1,8 +1,8 @@
 
 if (price == 0)
 {
-	text = "$50";
-	moneyAdd = 50;
+	text = "$600";
+	moneyAdd = 600;
 }
 else if (price == 1)
 {
@@ -11,8 +11,8 @@ else if (price == 1)
 }
 else if (price == 2)
 {
-	text = "$50,000";
-	moneyAdd = 50000;
+	text = "$1,200";
+	moneyAdd = 1200;
 }
 	
 if (mouse_check_button_pressed(mb_left)) {

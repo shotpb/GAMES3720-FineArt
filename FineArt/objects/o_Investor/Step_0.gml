@@ -14,7 +14,7 @@ if (place_meeting(x, y, o_player))
 			canSell = false;
 		}
 		
-		o_player.potential_moral_choice = [specific_Class, specific_Morals];
+		//o_player.potential_moral_choice = [specific_Class, specific_Morals];
 	}
 }
 else if (instance_exists(o_popupE) && !o_player.touching_NPC)

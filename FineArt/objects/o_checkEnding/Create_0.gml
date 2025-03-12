@@ -1,2 +1,2 @@
-//if (global.quota <= 0) show_message("You Win");
-//else show_message("You Lose");
+if (global.money >= global.quota) room_goto(r_Cutscene5_Art)
+else room_goto(r_Cutscene5_Inv);

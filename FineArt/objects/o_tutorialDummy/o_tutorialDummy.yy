@@ -15,8 +15,8 @@
     "path":"folders/Objects/Interaction Objects.yy",
   },
   "parentObjectId":{
-    "name":"o_Dummy1",
-    "path":"objects/o_Dummy1/o_Dummy1.yy",
+    "name":"o_Dummy",
+    "path":"objects/o_Dummy/o_Dummy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

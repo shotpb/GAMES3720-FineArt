@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_Dummy1",
+  "%Name":"o_Dummy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_Dummy1",
+  "name":"o_Dummy",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"can_sell","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"true",},
   ],

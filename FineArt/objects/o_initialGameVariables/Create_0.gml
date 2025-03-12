@@ -1,1 +1,1 @@
-global.quota = 50_000;
+global.quota = 1_000;
