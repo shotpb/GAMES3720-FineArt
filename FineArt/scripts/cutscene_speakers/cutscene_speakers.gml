@@ -5,7 +5,9 @@ function cutscene_speakers(cutscene_number){
 	speaker_order_3 = [0, 1, 0, 1, 0, 1, 1, 1, 0, 1];
 	speaker_order_4 = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0];
 	speaker_order_5 = [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1];
-	speaker_order_6 = [1, 1, 0];
+	speaker_order_6 = [1, 1, 1, 1, 1];
+	speaker_order_7 = [];
+	speaker_order_8 = [];
 	
 	switch (cutscene_number) {
 		case 0:
@@ -20,6 +22,10 @@ function cutscene_speakers(cutscene_number){
 			return speaker_order_5;
 		case 5:
 			return speaker_order_6;
+		case 6:
+			return speaker_order_7;
+		case 7:
+			return speaker_order_8;
 		default:
 			return [];
 	}

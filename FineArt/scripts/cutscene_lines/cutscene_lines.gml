@@ -74,11 +74,6 @@ function cutscene_lines(cutscene_number)
 	"And I regret how I’ve acted toward you, I apologize more than you can possibly know. Please, Eve, for my daughter, I’d do it again. But we can stop now.",
 	"Eve, you know that’s not what I meant.",
 	"Evelyn! Stop!",
-	"Evelyn, if I knew this was how it would end, I’d never have asked you for this.  We- I- no.",
-	"I don’t deserve to say those words.",
-	"Maybe once we were friends, and I should be sorry, but you wouldn’t want to hear that. Would you?",
-	"I’ll live for you now… even if you don’t want me to. Amelia needs me. No more paintings, no more nightmares.",
-	"Rest now Eve, please. Lord knows you deserve it."
 	];
 	
 	evelyn_5 = [
@@ -94,13 +89,22 @@ function cutscene_lines(cutscene_number)
 	];
 	
 	james_6 = [
-	"Test - James1",
-	"Test - James2"
+	"Evelyn, if I knew this was how it would end, I’d never have asked you for this.  We- I- no.",
+	"I don’t deserve to say those words.",
+	"Maybe once we were friends, and I should be sorry, but you wouldn’t want to hear that. Would you?",
+	"I’ll live for you now… even if you don’t want me to. Amelia needs me. No more paintings, no more nightmares.",
+	"Rest now Eve, please. Lord knows you deserve it."
 	];
 	
-	evelyn_6 = [
-	"Test - Evelyn3"
-	];
+	evelyn_6 = [];
+	
+	james_7 = [];
+	
+	evelyn_7 = [];
+	
+	james_8 = [];
+	
+	evelyn_8 = [];
 	}
 	
 	speaker_order = cutscene_speakers(cutscene_number);
@@ -158,6 +162,12 @@ function cutscene_lines(cutscene_number)
 			break;
 		case 5:
 			dialogue_lines = create_cutscene_dialogue(evelyn_6, james_6, speaker_order);
+			break;
+		case 6:
+			dialogue_lines = create_cutscene_dialogue(evelyn_7, james_7, speaker_order);
+			break;
+		case 7:
+			dialogue_lines = create_cutscene_dialogue(evelyn_8, james_8, speaker_order);
 			break;
 	}
 	

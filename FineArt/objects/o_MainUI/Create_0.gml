@@ -6,6 +6,6 @@ curr_idx = 0
 showing_txt = false;
 curr_txt = "";
 alpha = 1;
-my_text = [0];
+my_txt = [];
 
 o_player.display_dialogue = true;

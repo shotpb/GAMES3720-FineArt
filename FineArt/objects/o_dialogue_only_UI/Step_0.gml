@@ -7,10 +7,16 @@ if (showing_txt == false)
 		if (instance_exists(o_button))
 			instance_destroy(o_button);
 		instance_destroy();
-		o_player.display_dialogue = false;
 		alpha = 0;
-		o_player._exit = true;
+		if(instance_exists(o_player)) {
+			o_player.display_dialogue = false;
+			o_player._exit = true;
+		}
 		// show_message(o_player.potential_moral_choice);
+		if(show_end) {
+			room_goto(r_Cutscene5_Art3)
+		}
+		
 		return;
 	}
 	if speaker_order[curr_idx] == 0 {

@@ -6,8 +6,11 @@ curr_idx = 0
 showing_txt = false;
 curr_txt = "";
 alpha = 1;
-my_text = [];
+my_txt = [];
 speaker_order = [];		// 0 - Evelyn, 1 - James
 speaker_portrait = s_character_test;
+show_end = false;
 
-o_player.display_dialogue = true;
+if(instance_exists(o_player)) {
+	o_player.display_dialogue = true;
+}
