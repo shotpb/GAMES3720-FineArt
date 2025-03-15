@@ -4,11 +4,11 @@ switch(menu_index) {
 		room_goto_next();
 		break;
 	// Controls
-	case 1:
-		show_debug_message("CONTROLS");
-		break;
+	//case 1:
+		//show_debug_message("CONTROLS");
+		//break;
 	// Exit Game
-	case 2:
+	case 1:
 		game_end();
 		break;
 }

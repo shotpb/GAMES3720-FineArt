@@ -18,6 +18,6 @@ if (global.can_draw_money) {
 	draw_rectangle(display_get_gui_width() - 300, 10, display_get_gui_width() - 10, 70, 0);
 	draw_set_color(c_white);
 	draw_rectangle(display_get_gui_width() - 300, 10, display_get_gui_width() - 10, 70, 1);
-	draw_text_ext(display_get_gui_width() - 290, 20, "$" + string(global.money), 33, 910);
+	draw_text_ext(display_get_gui_width() - 290, 20, "$" + string(global.money) + " / " + string(global.quota), 33, 910);
 	draw_set_alpha(0);
 }
