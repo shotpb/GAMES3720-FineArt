@@ -14,7 +14,7 @@ if (showing_txt == false)
 		}
 		// show_message(o_player.potential_moral_choice);
 		if(show_end) {
-			room_goto(r_Cutscene5_Art3)
+			room_goto(r_End)
 		}
 		
 		return;

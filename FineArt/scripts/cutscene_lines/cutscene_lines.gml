@@ -67,6 +67,8 @@ function cutscene_lines(cutscene_number)
 	"F-fine, but after this, we’re going to have a talk."
 	];
 	
+	// Artist Ending Lines
+	
 	james_5 = [
 	"Evelyn! It's done! I don’t know how long it will take for her to recover, but Amelia is doing much better now.  It's all thanks to you.",
 	"R-really, your sacrifice has allowed my Daughter to live. I cannot begin to thank you enough.",
@@ -96,15 +98,31 @@ function cutscene_lines(cutscene_number)
 	"Rest now Eve, please. Lord knows you deserve it."
 	];
 	
-	evelyn_6 = [];
+	evelyn_6 = ["thx for killing me bro"];
 	
-	james_7 = [];
+	// Investor Ending Lines
 	
-	evelyn_7 = [];
+	james_7 = [
+	"EVELYN! EVELYN!! WHERE ARE YOU!?",
 	
-	james_8 = [];
+	"Well...well...well, you look incredibly pleased with yourself.",
 	
-	evelyn_8 = [];
+	"You may have saved a few lives, Eve. But you deliberately KILLED MY DAUGHTER. I told you that if you didn't sell out there wouldn't be enough money for her treatment.",
+	"Instead of just doing what an artist is supposed to and SELL THEIR ART... you killed Amy.",
+	
+	"How convenient that you want to come to her aid now.",
+	"I met a man last night in the bar while I was drinking away this pain, and he was telling me about an artist in the Netherlands.",
+	"Some man named Van Gogh, who used to be a painter, died a few months ago. Apparently his work is worth ten times what it was when he was alive now that he’s dead.",
+	"It adds an aura of mystery…the death effect some would call it.",
+	"I would say I’m sorry Evelyn, but I’m not. This only feels fair, for my daughter’s death at your hand to lead to…"];
+	
+	evelyn_7 = [
+	"The parlor!",
+	
+	"I am. I'm glad to have this gallery show behind me. I'm sorry, but I just couldn't sell the paintings knowing they'd hurt people who appreciate my talent.",
+	
+	"James... what are you saying? She's dead?"];
+	
 	}
 	
 	speaker_order = cutscene_speakers(cutscene_number);
