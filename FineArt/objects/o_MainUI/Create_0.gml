@@ -7,6 +7,6 @@ showing_txt = false;
 curr_txt = "";
 alpha = 1;
 my_txt = [];
-painting_choice = Painting_1;
+painting_choice = p1;
 
 o_player.display_dialogue = true;

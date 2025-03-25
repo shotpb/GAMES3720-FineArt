@@ -7,3 +7,6 @@ myDialogue = [ "Welcome to the tutorial.",
 				"Exit the tutorial on the bottom when you are ready."];
 				
 can_sell = false;
+if (painting_choice == 0) {
+	painting_choice = irandom_range(1, 5)
+}

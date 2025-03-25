@@ -9,6 +9,7 @@ if (place_meeting(x, y, o_player))
 		{
 			my_txt = other.myDialogue;
 			canSell = other.can_sell;
+			painting_choice	= get_painting(other.painting_choice);
 		}
 		audio_play_sound(s_dialogueAdvance, 1, false);
 		o_player.potential_moral_choice = [specific_Class, specific_Morals];
