@@ -17,6 +17,7 @@ if (place_meeting(x, y, o_player))
 		}
 		
 		o_player.potential_moral_choice = [specific_Class, specific_Morals];
+		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
 }
 else if (instance_exists(o_popupE) && !o_player.touching_NPC)

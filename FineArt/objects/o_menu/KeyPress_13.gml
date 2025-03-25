@@ -1,6 +1,7 @@
 switch(menu_index) {
 	// New Game
 	case 0:
+		audio_play_sound(s_dialogueAdvance, 1, false);
 		room_goto_next();
 		break;
 	// Controls

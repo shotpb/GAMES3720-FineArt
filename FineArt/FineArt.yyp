@@ -93,6 +93,7 @@
     {"id":{"name":"get_lines","path":"scripts/get_lines/get_lines.yy",},},
     {"id":{"name":"get_painting","path":"scripts/get_painting/get_painting.yy",},},
     {"id":{"name":"sell_button","path":"scripts/sell_button/sell_button.yy",},},
+    {"id":{"name":"s_dialogueAdvance","path":"sounds/s_dialogueAdvance/s_dialogueAdvance.yy",},},
     {"id":{"name":"s_gunshot","path":"sounds/s_gunshot/s_gunshot.yy",},},
     {"id":{"name":"s_menuSwitch","path":"sounds/s_menuSwitch/s_menuSwitch.yy",},},
     {"id":{"name":"CoinSprite","path":"sprites/CoinSprite/CoinSprite.yy",},},
