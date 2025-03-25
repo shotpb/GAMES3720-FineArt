@@ -23,6 +23,7 @@ else
 	{
 		showing_txt = false;
 		alpha = 0;
+		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
 }
 
