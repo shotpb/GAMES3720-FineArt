@@ -1,4 +1,4 @@
-depth = -y
+depth = -(y + 54)
 myDialogue = [ "Welcome to the tutorial.", 
 				"You will have to sell several paintings over the course of several days.",
 				"You will also be given a certain criteria for your patrons.",

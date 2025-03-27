@@ -23,7 +23,7 @@
   ],
   "name":"s_TestDummy",
   "nineSlice":null,
-  "origin":9,
+  "origin":1,
   "parent":{
     "name":"Character Sprites",
     "path":"folders/Sprites/Character Sprites.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":54,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

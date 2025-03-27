@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"MaleHairRandomizer",
   "bboxMode":0,
-  "bbox_bottom":60,
-  "bbox_left":7,
-  "bbox_right":118,
+  "bbox_bottom":12,
+  "bbox_left":6,
+  "bbox_right":25,
   "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,18 +12,33 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f07e7581-1bff-47bf-ad24-c78aaf0a919c","name":"f07e7581-1bff-47bf-ad24-c78aaf0a919c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8435cf5c-1e3d-4b60-bd6b-34b28fdaac6d","name":"8435cf5c-1e3d-4b60-bd6b-34b28fdaac6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5122fba8-9010-4c31-81ff-fe1e269a9932","name":"5122fba8-9010-4c31-81ff-fe1e269a9932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"89aa31bd-5487-4996-8c62-2abec0ad8522","name":"89aa31bd-5487-4996-8c62-2abec0ad8522","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"79b7a667-f76d-48dd-88bd-37ad3e0ec9b6","name":"79b7a667-f76d-48dd-88bd-37ad3e0ec9b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ae96429d-ba46-47bd-ae89-fbfd415b93ff","name":"ae96429d-ba46-47bd-ae89-fbfd415b93ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"04235a34-7dea-40d0-9c53-eb64800c491b","name":"04235a34-7dea-40d0-9c53-eb64800c491b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e62012c2-b38d-4106-b3f1-156a7de72495","name":"e62012c2-b38d-4106-b3f1-156a7de72495","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7088e70a-6956-4d53-80e0-c56383aa9907","name":"7088e70a-6956-4d53-80e0-c56383aa9907","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"09c8a020-93e0-4c32-a74a-0d009cf27cdd","name":"09c8a020-93e0-4c32-a74a-0d009cf27cdd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"334aa542-f6f6-44e9-9ea5-6b7ddc14716b","name":"334aa542-f6f6-44e9-9ea5-6b7ddc14716b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"33918c33-e781-44de-9aa2-14aba8d37c81","name":"33918c33-e781-44de-9aa2-14aba8d37c81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5e7c56ee-a850-4d9e-a87e-5b3019b3046a","name":"5e7c56ee-a850-4d9e-a87e-5b3019b3046a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ccda683f-5799-45a0-9605-45e76c3736d4","name":"ccda683f-5799-45a0-9605-45e76c3736d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fcacb13b-44ac-48c2-bcb0-36d4bd81cd96","name":"fcacb13b-44ac-48c2-bcb0-36d4bd81cd96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"573b0f36-4e7c-44d3-ae17-57507e4e991a","name":"573b0f36-4e7c-44d3-ae17-57507e4e991a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ff2a25a7-7e42-400d-a8e9-0e6bc1bb7b49","name":"ff2a25a7-7e42-400d-a8e9-0e6bc1bb7b49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f4b15e05-7dcb-4054-b2ef-23e62c6a84dc","blendMode":0,"displayName":"default","isLocked":false,"name":"f4b15e05-7dcb-4054-b2ef-23e62c6a84dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ef84325c-d193-4a0b-874c-9e7016385b2b","blendMode":0,"displayName":"default","isLocked":false,"name":"ef84325c-d193-4a0b-874c-9e7016385b2b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MaleHairRandomizer",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"RandomizerSpriteSheets",
     "path":"folders/Sprites/RandomizerSpriteSheets.yy",
@@ -49,7 +64,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":16.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,13 +84,58 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f07e7581-1bff-47bf-ad24-c78aaf0a919c","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"37a0dbd0-131f-4f5d-9c05-3333fdc22a4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8435cf5c-1e3d-4b60-bd6b-34b28fdaac6d","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bf05bc3f-3d53-44f2-b8ca-01597135e70f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5122fba8-9010-4c31-81ff-fe1e269a9932","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7138ae5f-8250-4fce-9edd-57e5a6cabe2f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89aa31bd-5487-4996-8c62-2abec0ad8522","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08e31006-80b0-48c6-930a-a0ea4fcfe283","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79b7a667-f76d-48dd-88bd-37ad3e0ec9b6","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"83984e6d-8d84-4e1f-b879-5d7d37910450","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae96429d-ba46-47bd-ae89-fbfd415b93ff","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"13bc48a3-14d8-4e39-9a06-a34459808abd","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04235a34-7dea-40d0-9c53-eb64800c491b","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1942fb99-dedf-4646-b9db-15baae257aab","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e62012c2-b38d-4106-b3f1-156a7de72495","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0d12812d-a4da-46f1-b6a6-2e686813378d","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7088e70a-6956-4d53-80e0-c56383aa9907","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03640650-1405-47bd-a421-2a806e7f1dbc","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"09c8a020-93e0-4c32-a74a-0d009cf27cdd","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"699adb69-7088-4c5f-8c2f-bd887d901681","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"334aa542-f6f6-44e9-9ea5-6b7ddc14716b","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b218f7c7-510c-4ca0-a247-fb8020cab1c9","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"33918c33-e781-44de-9aa2-14aba8d37c81","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"493a878d-38d1-4462-a083-ba22dfefefda","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5e7c56ee-a850-4d9e-a87e-5b3019b3046a","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"520e292f-4776-4463-9fe3-6c51b8e7dcda","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccda683f-5799-45a0-9605-45e76c3736d4","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"89c7174f-1609-4d96-bd9d-35deccb7e39c","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fcacb13b-44ac-48c2-bcb0-36d4bd81cd96","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"adf3fd03-c223-4acb-9f05-9e0918509698","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"573b0f36-4e7c-44d3-ae17-57507e4e991a","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2e9fc5a9-986e-45f4-bcb5-d6dbc636e3c2","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff2a25a7-7e42-400d-a8e9-0e6bc1bb7b49","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e32297a6-38dd-4378-84eb-bbff5e49f124","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -86,5 +146,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":32,
 }

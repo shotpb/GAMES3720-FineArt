@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":54,
   "bbox_left":6,
-  "bbox_right":121,
+  "bbox_right":25,
   "bbox_top":18,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,18 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2cd0e484-2977-46cc-acb2-681d6a199aca","name":"2cd0e484-2977-46cc-acb2-681d6a199aca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"47b2ab8d-2cb6-4c19-8c1c-8f3a4b64a9f9","name":"47b2ab8d-2cb6-4c19-8c1c-8f3a4b64a9f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"01d4524f-af0a-47d7-aaf1-2f25b48ed98b","name":"01d4524f-af0a-47d7-aaf1-2f25b48ed98b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"533e6121-effe-47f5-befa-8278d485c284","name":"533e6121-effe-47f5-befa-8278d485c284","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"42cca91e-3fc0-451d-9f35-70322e0694cc","name":"42cca91e-3fc0-451d-9f35-70322e0694cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2ddba064-816d-4856-af56-a8d9375985b4","blendMode":0,"displayName":"default","isLocked":false,"name":"2ddba064-816d-4856-af56-a8d9375985b4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f7bed5db-6f41-4809-85e7-19f3f1bb3417","blendMode":0,"displayName":"default","isLocked":false,"name":"f7bed5db-6f41-4809-85e7-19f3f1bb3417","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MaleSkinRandomizer",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"RandomizerSpriteSheets",
     "path":"folders/Sprites/RandomizerSpriteSheets.yy",
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,13 +72,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2cd0e484-2977-46cc-acb2-681d6a199aca","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"591e6cad-017e-4883-92b9-319a73917e4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47b2ab8d-2cb6-4c19-8c1c-8f3a4b64a9f9","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6bbcf57c-6f58-4993-9380-6a72dbbc2236","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"01d4524f-af0a-47d7-aaf1-2f25b48ed98b","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9b1783f4-0424-4900-8ee5-13db1d50c01b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"533e6121-effe-47f5-befa-8278d485c284","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7a27bcdd-31ee-4361-bb90-08a01fa7443c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42cca91e-3fc0-451d-9f35-70322e0694cc","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"55b79a5a-b68b-4ca8-97f1-f459e030cef4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -86,5 +98,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":32,
 }

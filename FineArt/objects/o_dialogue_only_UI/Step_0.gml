@@ -21,13 +21,13 @@ if (showing_txt == false)
 	}
 	if speaker_order[curr_idx] == 0 {
 		//draw_set_color(c_red);
-		speaker_portrait = s_character_test;
+		speaker_portrait = eve_portrait;
 		curr_txt = "EVELYN:     " + my_txt[curr_idx];
 		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
 	else if speaker_order[curr_idx] == 1 {
 		//draw_set_color(c_blue);
-		speaker_portrait = s_Krewella_DAFox;
+		speaker_portrait = james_portrait;
 		curr_txt = "JAMES:     " + my_txt[curr_idx];
 		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
