@@ -47,6 +47,7 @@
   "name":"FineArt",
   "resources":[
     {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},},
+    {"id":{"name":"f_menuTitle","path":"fonts/f_menuTitle/f_menuTitle.yy",},},
     {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},},
     {"id":{"name":"o_button","path":"objects/o_button/o_button.yy",},},
     {"id":{"name":"o_checkEnding","path":"objects/o_checkEnding/o_checkEnding.yy",},},

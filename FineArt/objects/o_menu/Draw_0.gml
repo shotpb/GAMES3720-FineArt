@@ -1,5 +1,10 @@
 draw_self();
 var i = 0;
+
+draw_set_font(f_menuTitle);
+draw_set_halign(fa_center);
+draw_set_color(c_white);
+draw_text(menu_x, 300, "Death Of The Artist");
 repeat(buttons) {
 	draw_set_font(f_menu);
 	draw_set_halign(fa_center);
