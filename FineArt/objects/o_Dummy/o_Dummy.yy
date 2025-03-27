@@ -38,7 +38,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_TestDummy",
+    "path":"sprites/s_TestDummy/s_TestDummy.yy",
+  },
   "spriteMaskId":{
     "name":"s_TestDummy",
     "path":"sprites/s_TestDummy/s_TestDummy.yy",
