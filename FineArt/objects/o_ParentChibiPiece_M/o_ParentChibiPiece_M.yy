@@ -26,11 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"chibi_skin","filters":[],"listItems":[],"multiselect":false,"name":"chibi_skin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"MaleSkinRandomizer","path":"sprites/MaleSkinRandomizer/MaleSkinRandomizer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MaleSkinRandomizer","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"chibi_hair","filters":[],"listItems":[],"multiselect":false,"name":"chibi_hair","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"MaleHairRandomizer","path":"sprites/MaleHairRandomizer/MaleHairRandomizer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MaleHairRandomizer","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"chibi_eye","filters":[],"listItems":[],"multiselect":false,"name":"chibi_eye","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"EyeRandomizer","path":"sprites/EyeRandomizer/EyeRandomizer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"EyeRandomizer","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"chibi_shirt","filters":[],"listItems":[],"multiselect":false,"name":"chibi_shirt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"MaleShirtRandomizer","path":"sprites/MaleShirtRandomizer/MaleShirtRandomizer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MaleShirtRandomizer","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"chibi_pant","filters":[],"listItems":[],"multiselect":false,"name":"chibi_pant","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"MalePantsRandomizer","path":"sprites/MalePantsRandomizer/MalePantsRandomizer.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MalePantsRandomizer","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
