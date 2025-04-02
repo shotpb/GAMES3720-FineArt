@@ -18,3 +18,13 @@ if((_hmove !=0) or (_vmove != 0)) and !display_dialogue
 
 touching_NPC = place_meeting(x, y, o_parentInteract);
 
+if (keyboard_check(ord("A")))
+	sprite_index = s_player_walk_l;
+else if (keyboard_check(ord("D")))
+	sprite_index = s_player_walk_r;
+else if (keyboard_check(ord("W")))
+	sprite_index = s_player_walk_u;
+else if (keyboard_check(ord("S")))
+	sprite_index = s_player_walk_d;
+else
+	sprite_index = s_player;
