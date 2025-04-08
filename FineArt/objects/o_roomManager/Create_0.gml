@@ -6,3 +6,7 @@ if (!variable_global_exists("money"))
 // Fade transition
 fade = 1;
 fadeDirection = -1;
+
+// Allows for multiple sales per day
+global.allowed_sales_per_day = sales_per_day;
+global.current_sales_per_day = 0;

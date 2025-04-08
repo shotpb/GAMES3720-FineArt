@@ -4,3 +4,5 @@ draw_set_font(txt_font);
 
 text = "";
 moneyAdd = 0;
+
+npc_instance = -1;

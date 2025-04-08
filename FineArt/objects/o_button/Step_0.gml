@@ -19,18 +19,22 @@ if (mouse_check_button_pressed(mb_left)) {
 	if (position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id)) {
 		audio_play_sound(s_buttonClick, 1, false);
 		global.money += moneyAdd;
+		global.current_sales_per_day++;
 		
-		//TODO: change mpney to quota
-		//global.quota -= moneyAdd;
-		//end_game(price, morality);
-		o_player._exit = true;
 		if (instance_exists(o_MainUI))
 		{
 			instance_destroy(o_MainUI);
 		}
 		o_player.display_dialogue = false;
 		
+		if (instance_exists(npc_instance))
+			npc_instance.can_sell = false;
+			
 		instance_destroy();
+		
+		if (global.current_sales_per_day >= global.allowed_sales_per_day) {
+			o_player._exit = true;
+		}
 		return;
 	}
 }

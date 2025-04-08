@@ -12,5 +12,8 @@ appearance = [irandom_range(0, 3), irandom_range(0, 15), irandom_range(0, 3), ir
 isMale = irandom_range(0, 1);
 
 if (painting_choice == 0) {
-	painting_choice = irandom_range(1, 5);
+	painting_choice = irandom_range(1, 5)
 }
+
+// Checks if player can sell to this npc
+can_sell = true;
