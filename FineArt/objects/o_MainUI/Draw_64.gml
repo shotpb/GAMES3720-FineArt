@@ -16,7 +16,7 @@ if (isMale == 1)
 	draw_sprite_part_ext(
 						m_rand_port_hair, 0, partWidth * hair, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
 	draw_sprite_part_ext(
-						m_portrait_tops, 0, partWidth * m_top, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
+						m_portrait_tops_for_real, 0, partWidth * m_top, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
 }
 else
 {
