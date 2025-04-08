@@ -46,5 +46,5 @@
     "name":"s_TestDummy",
     "path":"sprites/s_TestDummy/s_TestDummy.yy",
   },
-  "visible":false,
+  "visible":true,
 }

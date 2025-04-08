@@ -10,4 +10,10 @@ my_txt = [];
 painting_choice = p1;
 npc_instance = -1;
 
+partWidth = 48;
+partHeight = 64;
+correctedX = x + 40;
+correctedY = y - 244;
+scale = 7.5;
+
 o_player.display_dialogue = true;

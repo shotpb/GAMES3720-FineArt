@@ -12,10 +12,18 @@ if (place_meeting(x, y, o_player))
 		with (UI)
 		{
 			my_txt = other.myDialogue[0];
-			canSell = other.can_sell;
 			richness = other.myDialogue[1];
 			morality = other.myDialogue[2];
+			canSell = other.can_sell;
 			text = other.myDialogue[3];
+			
+			skin_color = other.appearance[0];
+			hair = other.appearance[1];
+			eye_color = other.appearance[2];
+			m_top = other.appearance[3];
+			f_top = other.f_drip;
+			isMale = other.isMale;
+			
 			painting_choice	= get_painting(other.painting_choice);
 			npc_instance = other.id;
 		}

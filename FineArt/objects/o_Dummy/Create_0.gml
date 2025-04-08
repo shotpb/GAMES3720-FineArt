@@ -1,12 +1,16 @@
 depth = -(y + 54)
 myDialogue = get_lines(specific_Class, specific_Morals, specific_Text);
 
-var partWidth = 32;
-var partHeight = 64;
-var sheetWidth = 4;
+partWidth = 32;
+partHeight = 64;
+
+correctedX = x - 16;
+correctedY = y + 3;
 
 //skin color, hair, eyes, top drip, bot drip
-appearance = [irandom_range(0, 3), irandom_range(0, 15), irandom_range(0, 3), irandom_range(0, 3), irandom_range(0, 3)];
+appearance = [irandom_range(0, 3), irandom_range(0, 15), irandom_range(0, 3), irandom_range(0, 7), irandom_range(0, 7)];
+//female outfit
+f_drip = irandom_range(0, 3);
 
 // male = 1
 isMale = irandom_range(0, 1);
