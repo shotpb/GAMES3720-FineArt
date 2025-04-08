@@ -34,6 +34,7 @@ if (canSell) {
 		price = other.richness;
 		morality = other.morality;
 		text = other._text;
+		npc_instance = other.npc_instance;
 	}
 	canSell = false
 }

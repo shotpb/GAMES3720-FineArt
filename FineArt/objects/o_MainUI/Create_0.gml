@@ -8,5 +8,6 @@ curr_txt = "";
 alpha = 1;
 my_txt = [];
 painting_choice = p1;
+npc_instance = -1;
 
 o_player.display_dialogue = true;

@@ -1,9 +1,12 @@
 if (place_meeting(x, y, o_player))
 {
-	instance_create_layer(x, y - sprite_yoffset - 30, "UI_Elements", o_popupE);
+	if (can_sell and !instance_exists(o_popupE) and !instance_exists(o_MainUI))
+		instance_create_layer(x, y - sprite_yoffset - 30, "UI_Elements", o_popupE);
 	
-	if (keyboard_check_pressed(ord("E")) && !instance_exists(o_MainUI))
+	if (keyboard_check_pressed(ord("E")) && !instance_exists(o_MainUI) && can_sell)
 	{
+		if(instance_exists(o_popupE))
+			instance_destroy(o_popupE);
 		audio_play_sound(s_dialogueAdvance, 1, false);
 		var UI = instance_create_layer(view_get_xport(0) + (view_get_wport(0) / 2), view_get_yport(0) + (view_get_hport(0) / 2) - 50, "UI_Elements", o_MainUI);
 		with (UI)
@@ -14,8 +17,9 @@ if (place_meeting(x, y, o_player))
 			morality = other.myDialogue[2];
 			text = other.myDialogue[3];
 			painting_choice	= get_painting(other.painting_choice);
+			npc_instance = other.id;
 		}
-		
+			
 		o_player.potential_moral_choice = [specific_Class, specific_Morals];
 	}
 }
