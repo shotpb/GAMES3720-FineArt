@@ -18,7 +18,7 @@ if (isMale == 1)
 	draw_sprite_part_ext(
 						m_portrait_tops_for_real, 0, partWidth * m_top, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
 }
-else
+else if (isMale == 0)
 {
 	draw_sprite_part_ext(
 						random_portraits, 0, partWidth * skin_color, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
@@ -28,6 +28,11 @@ else
 						f_rand_port_hair, 0, partWidth * hair, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
 	draw_sprite_part_ext(
 						f_portrait_tops, 0, partWidth * f_top, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
+}
+else
+{
+	draw_sprite_part_ext(
+						s_Krewella_DAFox, 0, 0, 0, partWidth, partHeight, correctedX, correctedY, scale, scale, c_white, 1);
 }
 
 //draw_text_ext_transformed(x, y, curr_txt, 29, 670, 1, 1, 0);

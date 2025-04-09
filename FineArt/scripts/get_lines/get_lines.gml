@@ -64,7 +64,8 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	["Oh… So you are this artist I’ve heard so much about. How drear. You really must do something to liven up this place, your gallery is practically a homeless shelter. No matter. I will do you the honor of taking this painting off your hands, consider it a charity case, if nothing else. Oh! How I’ll be able to brag about this to my associates, no longer will they say I’m not helping the lessers.", 
 	"My servants told me about this art house that I simply must visit, they said the work here was simply far too lifelike to pass up. I see now that their ability to measure art is only equivalent to their stations. Nonetheless, given that I have already graced you with my presence, and I already have my spending money, I may as well take this drear piece off your hands. Perhaps the servants will work harder knowing I listened to their advice, I’d hate them to get ideas above their stations.", 
 	"Oh, wait. You are the artist? I thought you were the serving maid. Apologies Ms' Reeves. Your art is… rather queer. I must say, I’ve never quite seen anything like it, perhaps my servants were fibbing when they spoke of your skills, but this arthouse is not something you could afford if they were. Hm. Well, if this is the new trend in noble society, I shall have one. Deliver it to my mansion before the end of the day and I shall cover the cost.", 
-	"Hmm. Exquisite brushwork, fine lines, the color pops wonderfully but… something is missing. Hm, you are the artist? Ms'… Evelyn Reeves, is it? Your work is rather stunning, but the frames you put your paintings in are rather poor. Can’t you afford anything better for display? I will take it off your hands and give it a proper home, clearly you cannot care for your own work properly. I’ll tell my butler to come by later with a bill, please have it ready for me. I'll make sure this masterpiece is taken out of the hands of a lesser such as yourself and given its proper place."];
+	"Hmm. Exquisite brushwork, fine lines, the color pops wonderfully but… something is missing. Hm, you are the artist? Ms'… Evelyn Reeves, is it? Your work is rather stunning, but the frames you put your paintings in are rather poor. Can’t you afford anything better for display? I will take it off your hands and give it a proper home, clearly you cannot care for your own work properly. I’ll tell my butler to come by later with a bill, please have it ready for me. I'll make sure this masterpiece is taken out of the hands of a lesser such as yourself and given its proper place.",
+	"I… Am Krewella! KREWELLA  DA  FOX! Sell me this hodgepodge scrap posthaste WORM, and I won't be tempted to alert the authorities!"];
 							  
 	dialogue_Options[2][1] = 
 	["Hello there, I must say this looks quite nice. I do not seek your favor to buy this art through sentiment, it is purely pleasing to the eye and I believe would reflect well upon my estate. Having a piece from a young up and comer such as yourself would be a great investment. Name your price and let us not bargain, your art is a commodity I am well positioned to procure. So then shall I be paying you today or some other new artist?", 
@@ -97,7 +98,7 @@ function get_lines(specific_Class, specific_Morals, specific_Text)
 	else
 		morality = specific_Morals;
 		
-	if (specific_Text != 0 && specific_Text != 1 && specific_Text != 2 && specific_Text != 3)
+	if (specific_Text != 0 && specific_Text != 1 && specific_Text != 2 && specific_Text != 3 && specific_Text != 4)
 		text = irandom_range(0, 3);
 	else
 		text = specific_Text;
