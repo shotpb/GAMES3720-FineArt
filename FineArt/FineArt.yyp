@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"FineArt",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -36,16 +36,18 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Minecraftia-Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Minecraftia-Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"FineArt",
   "resources":[
+    {"id":{"name":"f_end","path":"fonts/f_end/f_end.yy",},},
     {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},},
     {"id":{"name":"f_menuTitle","path":"fonts/f_menuTitle/f_menuTitle.yy",},},
     {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},},
@@ -54,8 +56,11 @@
     {"id":{"name":"o_dialogue_only_UI","path":"objects/o_dialogue_only_UI/o_dialogue_only_UI.yy",},},
     {"id":{"name":"o_dialogueCanSell","path":"objects/o_dialogueCanSell/o_dialogueCanSell.yy",},},
     {"id":{"name":"o_dialogueParent","path":"objects/o_dialogueParent/o_dialogueParent.yy",},},
+    {"id":{"name":"o_dialogueSpecialTutorial","path":"objects/o_dialogueSpecialTutorial/o_dialogueSpecialTutorial.yy",},},
+    {"id":{"name":"o_dialogueSpecialTutorial2","path":"objects/o_dialogueSpecialTutorial2/o_dialogueSpecialTutorial2.yy",},},
     {"id":{"name":"o_dialogueTest","path":"objects/o_dialogueTest/o_dialogueTest.yy",},},
     {"id":{"name":"o_Dummy","path":"objects/o_Dummy/o_Dummy.yy",},},
+    {"id":{"name":"o_end","path":"objects/o_end/o_end.yy",},},
     {"id":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},},
     {"id":{"name":"o_initialGameVariables","path":"objects/o_initialGameVariables/o_initialGameVariables.yy",},},
     {"id":{"name":"o_Investor","path":"objects/o_Investor/o_Investor.yy",},},
@@ -72,6 +77,7 @@
     {"id":{"name":"o_showCutsceneArtTriggerEnd","path":"objects/o_showCutsceneArtTriggerEnd/o_showCutsceneArtTriggerEnd.yy",},},
     {"id":{"name":"o_showCutsceneInvTriggerEnd","path":"objects/o_showCutsceneInvTriggerEnd/o_showCutsceneInvTriggerEnd.yy",},},
     {"id":{"name":"o_tutorialDummy","path":"objects/o_tutorialDummy/o_tutorialDummy.yy",},},
+    {"id":{"name":"o_tutorialDummy2","path":"objects/o_tutorialDummy2/o_tutorialDummy2.yy",},},
     {"id":{"name":"r_CheckEndRoom","path":"rooms/r_CheckEndRoom/r_CheckEndRoom.yy",},},
     {"id":{"name":"r_Cutscene1","path":"rooms/r_Cutscene1/r_Cutscene1.yy",},},
     {"id":{"name":"r_Cutscene2","path":"rooms/r_Cutscene2/r_Cutscene2.yy",},},

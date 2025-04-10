@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_TestDummy",
-    "path":"sprites/s_TestDummy/s_TestDummy.yy",
+    "name":"s_Investor",
+    "path":"sprites/s_Investor/s_Investor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
