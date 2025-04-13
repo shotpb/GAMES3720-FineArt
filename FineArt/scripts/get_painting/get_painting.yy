@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_painting",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_painting",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

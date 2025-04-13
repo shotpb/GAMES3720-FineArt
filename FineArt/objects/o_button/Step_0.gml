@@ -1,15 +1,44 @@
+
+if (price == 0)
+{
+	text = "$700";
+	moneyAdd = 700;
+}
+else if (price == 1)
+{
+	text = "$1,000";
+	moneyAdd = 1000;
+}
+else if (price == 2)
+{
+	text = "$1,300";
+	moneyAdd = 1300;
+}
+else
+{
+	moneyAdd = 0;	
+}
+	
 if (mouse_check_button_pressed(mb_left)) {
 	if (position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id)) {
-		show_message("Sell (add actual functionality later)");
+		audio_play_sound(s_buttonClick, 1, false);
+		global.money += moneyAdd;
+		global.current_sales_per_day++;
 		
-		// This is a really dumb and bad way to clear up dialogue but idk.
-		for (var i = 0; i < instance_number(o_dialogueParent); ++i;)
+		if (instance_exists(o_MainUI))
 		{
-			instance_destroy(instance_find(o_dialogueParent, i));
+			instance_destroy(o_MainUI);
 		}
 		o_player.display_dialogue = false;
 		
+		if (instance_exists(npc_instance))
+			npc_instance.can_sell = false;
+			
 		instance_destroy();
+		
+		if (global.current_sales_per_day >= global.allowed_sales_per_day) {
+			o_player._exit = true;
+		}
 		return;
 	}
 }

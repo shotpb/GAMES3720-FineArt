@@ -1,0 +1,50 @@
+{
+  "$GMObject":"",
+  "%Name":"o_Dummy",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"o_Dummy",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"can_sell","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"true",},
+  ],
+  "parent":{
+    "name":"Interaction Objects",
+    "path":"folders/Objects/Interaction Objects.yy",
+  },
+  "parentObjectId":{
+    "name":"o_parentInteract",
+    "path":"objects/o_parentInteract/o_parentInteract.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"painting_choice","filters":[],"listItems":[],"multiselect":false,"name":"painting_choice","rangeEnabled":true,"rangeMax":5.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"emptyChibi",
+    "path":"sprites/emptyChibi/emptyChibi.yy",
+  },
+  "spriteMaskId":{
+    "name":"s_TestDummy",
+    "path":"sprites/s_TestDummy/s_TestDummy.yy",
+  },
+  "visible":true,
+}

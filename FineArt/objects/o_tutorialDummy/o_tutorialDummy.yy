@@ -3,17 +3,21 @@
   "%Name":"o_tutorialDummy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_tutorialDummy",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_parentInteract","path":"objects/o_parentInteract/o_parentInteract.yy",},"propertyId":{"name":"can_sell","path":"objects/o_parentInteract/o_parentInteract.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interaction Objects",
+    "path":"folders/Objects/Interaction Objects.yy",
   },
   "parentObjectId":{
-    "name":"o_Dummy1",
-    "path":"objects/o_Dummy1/o_Dummy1.yy",
+    "name":"o_Dummy",
+    "path":"objects/o_Dummy/o_Dummy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_TestDummy",
-    "path":"sprites/s_TestDummy/s_TestDummy.yy",
+    "name":"s_Investor",
+    "path":"sprites/s_Investor/s_Investor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

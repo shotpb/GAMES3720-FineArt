@@ -8,8 +8,8 @@
   "name":"o_roomExit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Room Objects",
+    "path":"folders/Objects/Room Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

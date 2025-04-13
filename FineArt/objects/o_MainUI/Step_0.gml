@@ -4,9 +4,12 @@ if (showing_txt == false)
 	alpha = 1
 	if(curr_idx > array_length(my_txt) - 1) 
 	{
+		if (instance_exists(o_button))
+			instance_destroy(o_button);
 		instance_destroy();
 		o_player.display_dialogue = false;
 		alpha = 0;
+		// show_message(o_player.potential_moral_choice);
 		return;
 	}
 	
@@ -20,5 +23,18 @@ else
 	{
 		showing_txt = false;
 		alpha = 0;
+		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
+}
+
+if (canSell) {
+	var sellButton = instance_create_layer(window_get_width() - 300, window_get_height() - 220, "UI_Elements", o_button);
+	with (sellButton)
+	{
+		price = other.richness;
+		morality = other.morality;
+		text = other._text;
+		npc_instance = other.npc_instance;
+	}
+	canSell = false
 }
