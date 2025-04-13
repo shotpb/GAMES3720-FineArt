@@ -1,8 +1,8 @@
 
 if (price == 0)
 {
-	text = "$600";
-	moneyAdd = 600;
+	text = "$700";
+	moneyAdd = 700;
 }
 else if (price == 1)
 {
@@ -11,8 +11,8 @@ else if (price == 1)
 }
 else if (price == 2)
 {
-	text = "$1,200";
-	moneyAdd = 1200;
+	text = "$1,300";
+	moneyAdd = 1300;
 }
 else
 {

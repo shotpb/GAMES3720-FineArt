@@ -23,7 +23,4 @@ function end_game(playerChoiceClass, playerChoiceMorals){
 	}
 	
 	show_message("You sold to a painting to a " + morals + " " + class + " patron.");
-	show_message("However, the painting was cursed and the patron momentarily died in agony.");
-	show_message("Your investor is not pleased.");
-	show_message("The End.");
 }

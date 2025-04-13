@@ -61,6 +61,7 @@
     {"id":{"name":"o_dialogueTest","path":"objects/o_dialogueTest/o_dialogueTest.yy",},},
     {"id":{"name":"o_Dummy","path":"objects/o_Dummy/o_Dummy.yy",},},
     {"id":{"name":"o_end","path":"objects/o_end/o_end.yy",},},
+    {"id":{"name":"o_exitGameButton","path":"objects/o_exitGameButton/o_exitGameButton.yy",},},
     {"id":{"name":"o_exitTrigger","path":"objects/o_exitTrigger/o_exitTrigger.yy",},},
     {"id":{"name":"o_initialGameVariables","path":"objects/o_initialGameVariables/o_initialGameVariables.yy",},},
     {"id":{"name":"o_Investor","path":"objects/o_Investor/o_Investor.yy",},},
