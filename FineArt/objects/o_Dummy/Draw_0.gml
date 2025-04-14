@@ -29,5 +29,5 @@ else if (isMale == 0)
 else
 {
 	draw_sprite_part_ext(
-						s_TestDummy, 0, 0, 0, partWidth, partHeight, correctedX, correctedY, 1, 1, c_white, 1);
+						krewella_chibi, 0, 0, 0, partWidth, partHeight, correctedX, correctedY, 1, 1, c_white, 1);
 }
