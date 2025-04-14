@@ -169,6 +169,8 @@
     {"id":{"name":"s_WoodTest","path":"sprites/s_WoodTest/s_WoodTest.yy",},},
     {"id":{"name":"s_WoodTile","path":"sprites/s_WoodTile/s_WoodTile.yy",},},
     {"id":{"name":"SellButton2","path":"sprites/SellButton2/SellButton2.yy",},},
+    {"id":{"name":"TitleTDOTA","path":"sprites/TitleTDOTA/TitleTDOTA.yy",},},
+    {"id":{"name":"Window_TDOTA","path":"sprites/Window_TDOTA/Window_TDOTA.yy",},},
     {"id":{"name":"ts_Floor_n_Walls2","path":"tilesets/ts_Floor_n_Walls2/ts_Floor_n_Walls2.yy",},},
   ],
   "resourceType":"GMProject",
