@@ -1,5 +1,5 @@
 menu_x = x;
-menu_y = y;
+menu_y = y + 200;
 button_h = 64;
 
 // button names
