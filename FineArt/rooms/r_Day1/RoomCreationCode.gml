@@ -1,0 +1,1 @@
+play_music(s_music_day1);
