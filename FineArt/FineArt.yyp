@@ -146,6 +146,7 @@
     {"id":{"name":"s_exitTrigger","path":"sprites/s_exitTrigger/s_exitTrigger.yy",},},
     {"id":{"name":"s_InteractE","path":"sprites/s_InteractE/s_InteractE.yy",},},
     {"id":{"name":"s_Investor","path":"sprites/s_Investor/s_Investor.yy",},},
+    {"id":{"name":"s_InvestorGunAnim","path":"sprites/s_InvestorGunAnim/s_InvestorGunAnim.yy",},},
     {"id":{"name":"s_Krewella_DAFox","path":"sprites/s_Krewella_DAFox/s_Krewella_DAFox.yy",},},
     {"id":{"name":"s_Main_UI","path":"sprites/s_Main_UI/s_Main_UI.yy",},},
     {"id":{"name":"s_only_dialogue_UI","path":"sprites/s_only_dialogue_UI/s_only_dialogue_UI.yy",},},
