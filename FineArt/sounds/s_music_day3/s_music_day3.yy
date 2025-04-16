@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":118.46401,
+  "duration":240.02402,
   "name":"s_music_day3",
   "parent":{
     "name":"Music",
