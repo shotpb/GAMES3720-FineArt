@@ -5,97 +5,88 @@ function cutscene_lines(cutscene_number)
 	
 	evelyn_1 = [
 	"My first gallery show – well I didn’t expect to spend the whole evening pretending to care about complete snobs, but maybe I’ll get some more clients tomorrow that actually appreciate my art for what it is.",
-	"I put my heart into those paintings, I just want them to be appreciated!  I don't care who buys it or for how much!",
-	"I'll just have to speak with James about next time he comes to demand more paintings and money and whatever else he can think of."
+	"I just want my art to be appreciated, I put my heart into those paintings, and I don’t care who buys it or for how much!",
+	" I’ll just have to speak with James about this next time he comes to demand more paintings and more money and more of whatever else he can think of that day."
 	];
 	
 	james_2 = [
-	"Well then, sell more! The money we’re bringing in is-",
-	"You know that’s not true. If it didn’t matter, you’d give it to well-learned art museums for pennies, you wouldn’t be working with me.",
-	"You need money. Hell, I need money. Eve, I know art means a lot to you, but that’s not enough to live reasonably these days.",
-	"Eve, I'm sorry.",
-	"Is that so wrong? They’re buying the art, that’s all you should care about.",
-	"Eve, that’s not fair.",
-	"I- I have to go. I’ll explain some time, but it isn’t my story to tell."
+	"Well then, sell more!  The money we’re bringing in isn’t enough!",
+	"If you really didn’t care about money you would donate everything and you wouldn’t be working with me.",
+	"We both need this, I know you only want to sell your paintings to people that will appreciate them, but that’s not enough to live reasonably these days.",
+	"They’re buying the art, that’s all you should care about.",
+	"Eve, your sanity? Stop being dramatic. You don’t know the pressure I’m under, just make sure that tomorrow you focus on the money."
 	];
 	
 	evelyn_2 = [
-	"It’s art! It doesn’t matter who’s buying it! It’s more important that the people appreciate it!",
-	"It's- I just thought… I really believed that the people who came in here would be doing so because they wanted to understand the art on a deeper level.",
-	"I thought I’d be able to share my passions and joys with these people.",
-	"It just feels like	 we're running a business. I feel like I sold part of my soul to each of these paintings and almost none of these people are here for that.",
-	"If you cared, you wouldn’t be making money off me. Why are you even doing this?",
-	"The hell it is! We’ve known each other for years, what would be so important that you’d not tell me under this much duress!",
-	"...Damn it James."
+	"It’s art! It doesn’t matter who’s buying it, if I want to sell it to someone for a discounted price then that’s what I’ll do!",
+	"I put part of my soul into each of these paintings, I can’t keep selling and painting them when I don’t feel any appreciation or excitement to make them, and without creativity, there’s no art at all!",
+	"Your greed knows no bounds, truly. You would have me sacrifice my sanity for nothing more than money…"
 	];
 	
 	james_3 = [
-	"Evelyn, I told you once and I’ll tell you again stop being so paranoid and dramatic! How could they kill a person? They’re PAINTINGS!",
-	"Evelyn, this is ridiculous. Just because one of the people who bought your paintings a few days ago died, it doesn’t make your paintings at fault!",
-	"Look, I’m not going to argue about this anymore. Maybe you are feeling some sort of presence when you’re working on your pieces lately, and maybe somehow that presence has worked itself into your paintings.",
-	"This is all preposterous, but even if it was true…what could we do about it? You’ve already painted these pieces, so we might as well sell them and share your beautiful art with the world.",
-	"We’ll find people who appreciate your talent and the real emotion you put into your art.",
-	"You’ve already painted them and most importantly I’ve already given you the money to paint them. So let’s sell them, recoup the investment, and then you can have your crisis of conscience after the gallery show is over."
+	"Evelyn.  I know last we spoke we didn’t leave off on the best terms, I admit I have been acting odd lately and I feel I owe you an explanation.",
+	"I have put everything I have into this gallery because I see your art for what it is…a masterpiece that you put your full heart into.",
+	"But, as you know, my wife died two years ago and it’s just me and Amy now. Finances have been tight and I haven’t been able to provide her the life she deserves, especially with her mother gone.",
+	"I’m betting my livelihood on you and the stakes are higher than I would like to admit.",
+	"Well there’s more, but-",
+	"Eve-"
 	];
 	
 	evelyn_3 = [
-	"JAMES, YOU’RE NOT LISTENING TO ME! This is serious. I really think that my paintings killed that person!",
-	"James you’re not being paranoid enough if you can’t see the obvious connection, I sold a painting to that person and now they're dead? Haven’t you seen the paper?",
-	"I’m telling you, I haven’t been feeling well lately. I’ve been having nightmares and I told you there is something in my studio. I can feel it…watching me.",
-	"How could we sell people a painting that we know could KILL them?"
+	"James.",
+	"That would be appreciated…",
+	"James, you are an old friend, but I can’t keep making art at this pace. It’s draining in a way that you can’t imagine and I don’t think that you understand the toll it takes on me.",
+	"Oh be quiet, James, I’m done listening to this sob story, just the money, god, I’ve been such a fool, and now I’m just as entrenched as you.",
+	"Just get out, I need to finish up these paintings for tomorrow if we want to have anything to display so you can make your money…"
 	];
 	
 	james_4 = [
-	"Evelyn! We- I-",
+	"Evelyn! We need to talk!",
 	"Amelia, she’s-",
 	"Amelia’s very sick, the treatment is… expensive, to say the least.",
-	"You know how she is.  Headstrong and stubborn, she didn’t want you to think less of her or pity her.  H-heh, kids…",
-	"That’s not important now!  She’s getting worse, and I need more money to help her.",
-	"I can put a price on other’s lives, Amelia’s life is worth far more.",
-	"So what?!  Don’t tell me I’m being illogical! I’d pick my daughter over anyone else any day!",
-	"I’ll do whatever I need to save my daughter, Evelyn.  Please do not try to stop me.",
+	"I was embarrassed, I want to be able to provide for her and ensure that she has a good life – but things have been very difficult since her mother died.",
+	"I don’t need your pity, I need your help!  She’s getting worse, and I need the money to help her and pay for treatments.",
+	"Amelia’s life is worth that and more.",
+	"So what?!  Don’t tell me I’m being illogical! I’d pick my daughter over anyone else in this world!",
+	"I’ll do whatever I need to save my daughter, Evelyn! What don’t you understand?!",
+	"Yes, Evelyn, in fact, we are. I’ll see you at the gallery – and you’d better have these done."
 	];
 	
 	evelyn_4 = [
-	"James, what now?  I don’t know if I can keep selling these, and you won't tell me anything!",
+	"James, what now?  I don’t know if I can keep making these paintings.",
 	"Your daughter? What happened?",
-	"And you couldn’t tell me this before? James, if these paintings hadn’t killed a person, I’d help you without a second thought.  You know I love Amy.",
-	"James. I’m so sorry.",
-	"So, we’re really doing this? We’re going to keep going? Other lives for Amy’s?",
+	"And you couldn’t tell me this before? James, If you’d told me, I would have understood why you needed these paintings sold so desperately.  You know I love Amy.",
+	"James.  I’m so sorry.",
+	"James, I can’t keep creating paintings at this rate, with my schedule I’ll have to work through nights to get enough.",
 	"James! That’s so-!",
 	"I understand James, but it’s not your sanity you are risking!  You aren’t the only one who gets to make a decision on this!",
-	"F-fine, but after this, we’re going to have a talk."
+	"James! We aren't done here!"
 	];
 	
 	// Artist Ending Lines
 	
 	james_5 = [
-	"Evelyn! It's done! I don’t know how long it will take for her to recover, but Amelia is doing much better now.  It's all thanks to you.",
-	"R-really, your sacrifice has allowed my Daughter to live. I cannot begin to thank you enough.",
-	"Evelyn, w-what are you saying?  You love Amy!!",
-	"And I regret how I’ve acted toward you, I apologize more than you can possibly know.  Please, Eve, for my daughter, I’d do it again. But we can stop now.",
-	"The paintings were never haunted, Eve, it was just a coincidence.  You’ve lost your mind…",
+	"Evelyn! Thank you! I don’t know how long it will take for her to recover, but I was able to get Amelia the treatment she needed!  It's all thanks to you",
+	"Your sacrifice and work has allowed my daughter to live. I cannot begin to thank you enough.",
+	"Evelyn, what are you saying?  You love Amy and now she’ll get to live!",
+	"I regret how I’ve treated you, and I truly apologize. But please, Eve, for my daughter I’d do it again. But she’ll recover and you can stop now.",
+	"Eve, please… We’re friends, we can make this partnership work! You can sell your paintings for as little as you like and not worry about who you sell to!",
 	"Evelyn! Stop!",
 	];
 	
 	evelyn_5 = [
-	"H-hah, James… you’re right.",
-	"Exactly, James.  MY sacrifice.  MY art. MY conscience.  MY dream.  And for what? Your sick daughter?",
-	"I did.  How can you expect me to look her in the eye after all of this?",
-	"These… paintings, my dream… you’ve taken my art and painted blood across it, you’ve taken my dreams and stomped them to dust.",
-	"None of this was ever going to be mine!  This was always yours.  YOUR idea. YOUR money. YOUR greed.  YOUR daughter.",
-	"No.  Even if it isn’t me, you’ll do this to someone else, again and again.  You can’t stop, you just admitted that.  You’re probably the reason the paintings are haunted!",
-	"Stop calling me that! We aren’t friends.",
-	"We’ve been killing people since we started this business, and you downplayed it as if the life of your daughter was worth 100 of them!",
-	"How many of them had families! How many of them had dreams like mine!"
+	"Yes, James… you’re right.",
+	"Exactly, James.  MY sacrifice.  MY art. MY sanity.  MY dream that YOU destroyed.",
+	"I did.  But these paintings, my dream… you’ve taken my art and painted blood across it, you’ve taken my dreams and stomped them to dust.",
+	"You’ve taken my love for this craft and ruined it with your greed. You used me.",
+	"No. You have ruined me, I know you believe it was for a just cause, but you have chosen her life over mine.",
+	"We aren’t friends. I’ve been dying since we started this business, and you sat there and profited, then you had the gall to act as if your daughter’s life is worth more than mine!"
 	];
 	
 	james_6 = [
-	"Evelyn, if I knew this was how it would end, I’d never have asked you for this.  We- I- no.",
-	"I don’t deserve to say those words.",
-	"Maybe once we were friends, and I used you, and I should be sorry, but you wouldn’t want to hear that.  Would you?",
-	"I’ll live for you now… even if you don’t want me to.  Amelia needs me.  No more paintings, no more nightmares.",
-	"Rest now Eve, please.  We all know you deserve it."
+	"Evelyn, I told you I would choose my daughter every time.",
+	"You sacrificed your sanity for her, and that is something I will always appreciate. No more paintings, no more sleepless nights.",
+	"Rest now Eve, please. I didn’t know that my daughter’s life would lead to…"
 	];
 	
 	evelyn_6 = ["thx for killing me bro"];
@@ -107,19 +98,18 @@ function cutscene_lines(cutscene_number)
 	
 	"Well...well...well, you look incredibly pleased with yourself.",
 	
-	"You may have saved a few lives, Eve. But you deliberately KILLED MY DAUGHTER. I told you that if you didn't sell out there wouldn't be enough money for her treatment.",
-	"Instead of just doing what an artist is supposed to and SELL THEIR ART... you killed Amy.",
+	"You killed my daughter. I told you that if you didn’t sell out the show there wouldn’t be enough money for her treatment,",
+	"and instead of just doing what an artist is supposed to do and SELL THEIR ART…you killed my daughter.",
 	
-	"How convenient that you want to come to her aid now.",
-	"I met a man last night in the bar while I was drinking away this pain, and he was telling me about an artist from the Netherlands.",
+	"How convenient that you want to come to her aid now. I met a man last night in the bar while I was drinking away this pain, and he was telling me about an artist from the Netherlands.",
 	"Some man named Van Gogh, who used to be a painter, died a few months ago. Apparently his work is worth ten times what it was when he was alive now that he’s dead.",
-	"It adds an aura of mystery…the death effect some would call it.",
-	"I would say I’m sorry Evelyn, but I’m not. This only feels fair, for my daughter’s death at your hand to lead to…"];
+	"It adds an aura of mystery…the death effect some would call it.  I would say I’m sorry Evelyn, but I’m not. This only feels fair, for my daughter’s death at your hand to lead to…"
+	];
 	
 	evelyn_7 = [
 	"The parlor!",
 	
-	"I am. I'm glad to have this gallery show behind me. I'm sorry, but I just couldn't sell the paintings knowing they'd hurt people who appreciate my talent.",
+	"I am. I’m glad to have this gallery show behind me. I’m sorry, but I need a break, this many paintings in this short period of time is wearing me down.",
 	
 	"James... what are you saying? She's dead?"];
 	
