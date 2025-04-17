@@ -5,7 +5,8 @@ draw_sprite_ext(s_Prototype_UI, 0, x, y, 4, 4, 0, c_white, 1);
 draw_sprite_ext(painting_choice, 0, x - 225, y - 45, 1, 1, 0, c_white, 1);
 
 draw_set_halign(fa_left);
-draw_text_ext(x - 450, y + 270, curr_txt, 33, 910);
+//draw_text_ext(x - 450, y + 270, curr_txt, 33, 910);
+draw_text_scrolling(curr_txt, 1.5, 10, rpg_text, isMale);
 
 if (isMale == 1)
 {

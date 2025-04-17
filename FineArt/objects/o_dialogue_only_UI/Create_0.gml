@@ -10,6 +10,7 @@ my_txt = [];
 speaker_order = [];		// 0 - Evelyn, 1 - James
 speaker_portrait = s_character_test;
 show_end = false;
+isMale = 1;
 
 if(instance_exists(o_player)) {
 	o_player.display_dialogue = true;

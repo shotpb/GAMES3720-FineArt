@@ -21,12 +21,14 @@ if (showing_txt == false)
 	}
 	if speaker_order[curr_idx] == 0 {
 		//draw_set_color(c_red);
+		isMale = 0;
 		speaker_portrait = eve_portrait;
 		curr_txt = "EVELYN:     " + my_txt[curr_idx];
 		audio_play_sound(s_dialogueAdvance, 1, false);
 	}
 	else if speaker_order[curr_idx] == 1 {
 		//draw_set_color(c_blue);
+		isMale = 1;
 		speaker_portrait = james_portrait;
 		curr_txt = "JAMES:     " + my_txt[curr_idx];
 		audio_play_sound(s_dialogueAdvance, 1, false);
@@ -43,5 +45,6 @@ else
 	{
 		showing_txt = false;
 		alpha = 0;
+		draw_text_reset();
 	}
 }

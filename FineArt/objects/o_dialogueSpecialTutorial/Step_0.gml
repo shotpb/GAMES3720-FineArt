@@ -43,5 +43,6 @@ else
 	{
 		showing_txt = false;
 		alpha = 0;
+		draw_text_reset();
 	}
 }

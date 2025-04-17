@@ -1,4 +1,4 @@
-depth = -(y + 54)
+depth = -y
 myDialogue = [	"Evelyn Reeves! My favorite artist!", 
 				"Your work will be remembered alongside the other names of today! Manet, Turner, Reeves! Just make sure you’re selling to the wealthy, they’re your best clients.",
 				"The money’s good enough to ignore their words, just make sure you’re watching them to make sure they can put that money where their mouths are!",
